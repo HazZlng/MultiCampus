@@ -24,6 +24,8 @@ public class CalendarService {
 			// 12달 전체 출력
 			for(int j = 0; j < 12; j++)
 			{
+				int day = 1;
+				
 				//윤년판단 로직
 				int lastDay = lastDays[j];
 				if(year%400==0 || (year%4==0&&year%100!=0)) 
@@ -35,11 +37,13 @@ public class CalendarService {
 				System.out.printf("%d년 %d월\n", year, j+1);
 				System.out.println("일\t월\t화\t수\t목\t금\t토");
 				
+				//첫요일만큼 탭키 띄우기
 				for(int i=0;i<firstDay;i++)
 				{
 					System.out.print("\t");
 				}
-				int day = 1;
+				
+				//달력 출력
 				for(int i=0;i<lastDay;i++) 
 				{ 
 					firstDay++;
