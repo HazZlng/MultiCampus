@@ -6,7 +6,6 @@ public class CalendarService {
 		// TODO Auto-generated method stub
 		// 2020~2024년의 달력생성 --> 2019년 12월 빈칸정보 0
 		int year = 2020;
-		int monthCount = 0;
 		int firstDay = 0;
 		int[] lastDays = {31,28,31,30,31,30,31,31,30,31,30,31};
 		
@@ -58,10 +57,8 @@ public class CalendarService {
 					}
 					day = day + 1;
 				}
-				monthCount++;
 				System.out.println();
 			}
-			monthCount = 0;
 			year++;
 		}
 	}
