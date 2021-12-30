@@ -46,6 +46,7 @@ public class CalendarService {
 				//달력 출력
 				for(int i=0;i<lastDay;i++) 
 				{ 
+					//동시에 다음달 첫요일 카운트
 					firstDay++;
 					if(firstDay == 7)
 						firstDay = 0;
