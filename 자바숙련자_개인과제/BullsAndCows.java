@@ -31,6 +31,7 @@ public class BullsAndCows {
 		Scanner sc = new Scanner(System.in);
 		boolean isDuple = false;
 		int nCount = 0;
+		String stUserNums;
 		int[] ballCounts = new int[2];
 		int[] userNums = new int[4];
 		int[] sysNums = generator.getSysNums();
@@ -44,9 +45,13 @@ public class BullsAndCows {
 				break;
 			
 			System.out.printf("숫자 4개를 입력하세요. 현재 %d 회\n", bullsAndCows.playCount);
+
+			stUserNums = sc.next();
 			
-			for(int i = 0; i <userNums.length; i++)
-				userNums[i] = sc.nextInt();
+			for(int i = 0; i < 4; i++)
+			{
+				userNums[i] = Character.getNumericValue(stUserNums.charAt(i));
+			}
 			
 			//숫자가 중복인지 확인
 			for(int i = 0; i < nCount; i++)
