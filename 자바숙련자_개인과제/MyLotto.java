@@ -14,7 +14,8 @@ import java.util.Random;
 
 public class MyLotto {
 	static MyLotto myLotto = new MyLotto();
-	Compare compare = new Compare();
+	Compare compare = Compare.getInstance();
+	WinningLotto wl = WinningLotto.getInstance();
 	
 	int lotto[] = new int[6];
 	
@@ -67,19 +68,31 @@ public class MyLotto {
 			System.out.println("]");
 		}
 		
-		callWinning();
+		//callWinning();
 		compare.compareLottos(myLotto, lotto);
 	}
+	
+	/*
 	public void callWinning()
 	{
 		WinningLotto wl = new WinningLotto();
 		lotto = wl.getWinningNumber();
 	}
+	*/
 }
 
 // 로또 당첨번호를 추첨하는 클래스
 class WinningLotto {
+	private static WinningLotto wl = null;
 	public int winningLotto[] = new int[6];
+	
+	public static WinningLotto getInstance()
+	{
+		if(wl == null) {
+			wl = new WinningLotto();
+		}
+		return wl;
+	}
 	
 	//클래스가 선언되면 생성자에서 당첨번호를 추출한다.
 	WinningLotto()
@@ -117,6 +130,13 @@ class WinningLotto {
 
 //당첨번호와 내 로또번호를 비교하는 클래스
 class Compare {
+	private static Compare c = null;
+	
+	public static Compare getInstance()
+	{
+		if(c == null)
+			c = new Compare()
+	}
 	public void compareLottos(ArrayList<int[]> myNum, int[] winningNum)
 	{
 		ArrayList<String> result = new ArrayList<>();
@@ -159,7 +179,6 @@ class Compare {
 				break;
 			}
 		}
-		
 		printResult(result, myNum);
 	}
 	
