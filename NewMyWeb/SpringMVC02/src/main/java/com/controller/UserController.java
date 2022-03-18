@@ -26,11 +26,8 @@ public class UserController {
 	//입력하기 : 입력페이지에서 값을받아 엔티티로 전달한 객체를 서비스로 DAO를 통해 저장한다.
 	@RequestMapping(value = "/insert_res.sp", method = RequestMethod.POST)
 	public ModelAndView insertRes(@ModelAttribute User user) {
-//		if(userService.insertUser(user) == true) {
-//			return "/list.sp";
-//		} else {
-			return new ModelAndView("insert");
-//		}
+		userService.insertUser(user);
+		return new ModelAndView("list", "allList", userService.listUser());
 	}
 	
 	//전체출력

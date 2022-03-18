@@ -1,3 +1,5 @@
+drop table goodsinfo;
+
 create table goodsinfo(
 code varchar(10),
 name varchar(30),

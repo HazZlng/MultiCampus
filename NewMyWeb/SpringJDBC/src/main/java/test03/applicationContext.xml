@@ -8,7 +8,12 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
 	<context:property-placeholder location = "classpath:test02/jdbc.properties"/>
-
+	<context:component-scan base-package = "test03"/>
+	
+<!-- 
+	<bean id = "jdbcTemplate" class = "org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref = "dataSource"></property>
+	</bean	>-->
 	
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.SimpleDriverDataSource"
@@ -17,9 +22,5 @@
 		p:username="${jdbc.userName}"
 		p:password="${jdbc.password}">
 	</bean>	 
-
-	<bean id="test" class="test02.FirstJdbcDAOImpl">
-		<property name="dataSource" ref="dataSource"></property>
-	</bean>		
 	
-</beans>      
+</beans>  

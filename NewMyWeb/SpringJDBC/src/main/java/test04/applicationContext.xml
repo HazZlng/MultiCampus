@@ -7,19 +7,11 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
-	<context:property-placeholder location = "classpath:test02/jdbc.properties"/>
-
+	<context:component-scan base-package = "test04"/>
 	
-	<bean id="dataSource"
-		class="org.springframework.jdbc.datasource.SimpleDriverDataSource"
-		p:driverClass="${jdbc.driverClassName}"
-		p:url="${jdbc.url}"
-		p:username="${jdbc.userName}"
-		p:password="${jdbc.password}">
-	</bean>	 
-
-	<bean id="test" class="test02.FirstJdbcDAOImpl">
-		<property name="dataSource" ref="dataSource"></property>
-	</bean>		
-	
-</beans>      
+	<bean id="vo01" class="test04.GoodsVO" p:code="p007"
+		p:maker = "SDS" p:price = "0" p:name = "node.js"></bean>
+		
+	<bean id="vo02" class="test04.GoodsVO" p:code="p008"
+		p:maker = "CNS" p:price = "12222" p:name = "MyBatis"></bean>
+</beans>       

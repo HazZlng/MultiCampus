@@ -29,5 +29,15 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/User/.m2/repository/org/mybatis/mybatis/3.5.6/mybatis-3.5.6.jar" sourcepath="C:/Users/User/.m2/repository/org/mybatis/mybatis/3.5.6/mybatis-3.5.6-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="mybatis-3.5.6.jar"/>
+			<attribute name="maven.groupId" value="org.mybatis"/>
+			<attribute name="maven.artifactId" value="mybatis"/>
+			<attribute name="maven.version" value="3.5.6"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
