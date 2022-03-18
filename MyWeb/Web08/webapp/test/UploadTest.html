@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>파일업로드</title>
+</head>
+<body>
+<!--entype = application/x-www-form-urlencoded -->
+	<h1>파일업로드</h1>
+	<form method="post" action="FileUpRes.jsp"
+		enctype="multipart/form-data">
+		<p>
+			파일의 제목 : <input type="Text" name="subject"> <br> 업로드파일:
+			<input type="file" name="uploadfile" size=30> <br>
+		<hr>
+		<input type="submit" value="보내기">
+	</form>
+</body>
+</html>

@@ -1,0 +1,1117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_hKZooKD2EeyPFZNw_Xs21g" name="WebScore">
+    <eAnnotations xmi:id="_hbZ5EKD2EeyPFZNw_Xs21g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_hbagIKD2EeyPFZNw_Xs21g" source="codegen">
+        <details xmi:id="_hbagIaD2EeyPFZNw_Xs21g" key="codegenDirectory" value="/WebScore/src/main/java"/>
+        <details xmi:id="_h3Sj0KD2EeyPFZNw_Xs21g" key="AssociatedSourceCode" value="/WebScore/src/main/java/com/biz/ScoreBiz.java;2659902112/1;/WebScore/src/main/java/com/common/JdbcTemplate.java;549982091/1;/WebScore/src/main/java/com/controller/MyController.java;678496144/1;/WebScore/src/main/java/com/controller/ScoreAll.java;4143711064/1;/WebScore/src/main/java/com/controller/ScoreDelete.java;2599202864/1;/WebScore/src/main/java/com/controller/ScoreFind.java;1708529925/1;/WebScore/src/main/java/com/controller/ScoreInput.java;3621195384/1;/WebScore/src/main/java/com/controller/ScoreUpdate.java;4013883768/1;/WebScore/src/main/java/com/dao/ScoreDao.java;1444975519/1;/WebScore/src/main/java/com/dao/ScoreSql.java;1709247023/1;/WebScore/src/main/java/com/entity/Score.java;1558945085/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_houjYKD2EeyPFZNw_Xs21g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_houjYaD2EeyPFZNw_Xs21g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_hovKcKD2EeyPFZNw_Xs21g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_hovKcaD2EeyPFZNw_Xs21g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_hovKcqD2EeyPFZNw_Xs21g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_hovKc6D2EeyPFZNw_Xs21g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_hovKdKD2EeyPFZNw_Xs21g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_hovKdaD2EeyPFZNw_Xs21g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_hovKdqD2EeyPFZNw_Xs21g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hnyvQKD2EeyPFZNw_Xs21g" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hn6EAKD2EeyPFZNw_Xs21g" name="dao">
+        <packagedElement xmi:type="uml:Class" xmi:id="_hpIMAKD2EeyPFZNw_Xs21g" name="ScoreDao">
+          <ownedAttribute xmi:id="_hsXtQ6D2EeyPFZNw_Xs21g" name="conn" visibility="package" type="_hsBvAKD2EeyPFZNw_Xs21g" association="_htV9oKD2EeyPFZNw_Xs21g"/>
+          <interfaceRealization xmi:id="_hr7BUKD2EeyPFZNw_Xs21g" client="_hpIMAKD2EeyPFZNw_Xs21g" supplier="_hpLPUKD2EeyPFZNw_Xs21g" contract="_hpLPUKD2EeyPFZNw_Xs21g"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htMMoKD2EeyPFZNw_Xs21g" name="ScoreDao" specification="_hsTb0KD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htMMoaD2EeyPFZNw_Xs21g" name="con" type="_hsBvAKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htMMoqD2EeyPFZNw_Xs21g" type="_hpIMAKD2EeyPFZNw_Xs21g" direction="return"/>
+            <language>java</language>
+            <body>this.conn = con;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htMMo6D2EeyPFZNw_Xs21g" name="getScoreAll" specification="_hpIzEKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htMMpKD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" isOrdered="true" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_htMMpaD2EeyPFZNw_Xs21g" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>//		String sql = &quot;select * from Score&quot;;&#xD;
+		Score myScore = null;&#xD;
+		List&lt;Score> result = new ArrayList&lt;Score>();&#xD;
+		&#xD;
+		Statement stmt = null;&#xD;
+		ResultSet rs = null;&#xD;
+		try {&#xD;
+			//select 寃곌낵瑜?rs 濡 由ы?#xD;
+			stmt = conn.createStatement();&#xD;
+			rs = stmt.executeQuery(selectAll);&#xD;
+			&#xD;
+			while(rs.next())&#xD;
+			{&#xD;
+				myScore = new Score(rs.getString(1), rs.getInt(2),&#xD;
+						rs.getInt(3), rs.getInt(4));&#xD;
+//				myScore.setName(rs.getString(1));&#xD;
+//				myScore.setKor(rs.getInt(2));&#xD;
+//				myScore.setEng(rs.getInt(3));&#xD;
+//				myScore.setMat(rs.getInt(4));&#xD;
+				&#xD;
+				result.add(myScore);&#xD;
+			}&#xD;
+		} catch(Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+		} finally {&#xD;
+			close(rs);&#xD;
+			close(stmt);&#xD;
+		}&#xD;
+		&#xD;
+		return result;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htMMpqD2EeyPFZNw_Xs21g" name="getScoreFind" specification="_hpJaIKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htMMp6D2EeyPFZNw_Xs21g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_htMMqKD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" direction="return"/>
+            <language>java</language>
+            <body>//		String sql = &quot;select * from Score&quot;;&#xD;
+		Score myScore = null;&#xD;
+		PreparedStatement stmt = null;&#xD;
+		ResultSet rs = null;&#xD;
+		&#xD;
+		try {&#xD;
+			//select 寃곌낵瑜?rs 濡 由ы?#xD;
+			stmt = conn.prepareStatement(findScore);&#xD;
+			stmt.setString(1, name);&#xD;
+			rs = stmt.executeQuery();&#xD;
+			&#xD;
+			while(rs.next())&#xD;
+			{&#xD;
+				myScore = new Score(rs.getString(1), rs.getInt(2),&#xD;
+						rs.getInt(3), rs.getInt(4));&#xD;
+			}&#xD;
+		} catch(Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+		} finally {&#xD;
+			close(rs);&#xD;
+			close(stmt);&#xD;
+		}&#xD;
+		return myScore;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htMzsKD2EeyPFZNw_Xs21g" name="getScoreInsert" specification="_hr82gaD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htMzsaD2EeyPFZNw_Xs21g" name="myScore" type="_hpNrkaD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htMzsqD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>PreparedStatement pstm = null;&#xD;
+		int result = 0;&#xD;
+		&#xD;
+		try {&#xD;
+			pstm = conn.prepareStatement(insertScore);&#xD;
+			pstm.setString(1, myScore.getName());&#xD;
+			pstm.setInt(2, myScore.getKor());&#xD;
+			pstm.setInt(3, myScore.getEng());&#xD;
+			pstm.setInt(4, myScore.getMat());&#xD;
+			pstm.setInt(5, myScore.getTot());&#xD;
+			pstm.setDouble(6, myScore.getAvg());&#xD;
+			pstm.setString(7, myScore.getGrade());&#xD;
+			&#xD;
+			result = pstm.executeUpdate();&#xD;
+			&#xD;
+			if(result > 0){&#xD;
+				commit(conn);&#xD;
+			}&#xD;
+		} catch (Exception e) {&#xD;
+			rollback(conn);&#xD;
+		} finally {&#xD;
+			close(pstm);&#xD;
+		}&#xD;
+		return result;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htMzs6D2EeyPFZNw_Xs21g" name="getScoreUpdate" specification="_hr82hKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htMztKD2EeyPFZNw_Xs21g" name="myScore" type="_hpNrkaD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htMztaD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>PreparedStatement pstm = null;&#xD;
+		int result = 0;&#xD;
+		&#xD;
+		try {&#xD;
+			pstm = conn.prepareStatement(updateScore);&#xD;
+			&#xD;
+			pstm.setInt(1, myScore.getKor());&#xD;
+			pstm.setInt(2, myScore.getEng());&#xD;
+			pstm.setInt(3, myScore.getMat());&#xD;
+			pstm.setString(4, myScore.getName());&#xD;
+			&#xD;
+			result = pstm.executeUpdate();&#xD;
+			&#xD;
+			if(result > 0){&#xD;
+				commit(conn);&#xD;
+			}&#xD;
+		} catch (Exception e) {&#xD;
+			rollback(conn);&#xD;
+		} finally {&#xD;
+			close(pstm);&#xD;
+		}&#xD;
+		return result;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htMztqD2EeyPFZNw_Xs21g" name="getScoreDelete" specification="_hpKBMKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htMzt6D2EeyPFZNw_Xs21g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_htMzuKD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>PreparedStatement pstm = null;&#xD;
+		int result = 0;&#xD;
+		&#xD;
+		try {&#xD;
+			pstm = conn.prepareStatement(deleteScore);&#xD;
+			pstm.setString(1, name);&#xD;
+			&#xD;
+			result = pstm.executeUpdate();&#xD;
+			&#xD;
+			if(result > 0){&#xD;
+				commit(conn);&#xD;
+			}&#xD;
+		} catch (Exception e) {&#xD;
+			rollback(conn);&#xD;
+		} finally {&#xD;
+			close(pstm);&#xD;
+		}&#xD;
+		return result;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hpIzEKD2EeyPFZNw_Xs21g" name="getScoreAll" method="_htMMo6D2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hpIzEaD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" isOrdered="true" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hpIzEqD2EeyPFZNw_Xs21g" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hpJaIKD2EeyPFZNw_Xs21g" name="getScoreFind" method="_htMMpqD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hpJaIaD2EeyPFZNw_Xs21g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hr82gKD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hpKBMKD2EeyPFZNw_Xs21g" name="getScoreDelete" method="_htMztqD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hpKBMaD2EeyPFZNw_Xs21g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hpKBMqD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hr82gaD2EeyPFZNw_Xs21g" name="getScoreInsert" method="_htMzsKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hr82gqD2EeyPFZNw_Xs21g" name="myScore" type="_hpNrkaD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hr82g6D2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hr82hKD2EeyPFZNw_Xs21g" name="getScoreUpdate" method="_htMzs6D2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hr9dkKD2EeyPFZNw_Xs21g" name="myScore" type="_hpNrkaD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hr9dkaD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsTb0KD2EeyPFZNw_Xs21g" name="ScoreDao" method="_htMMoKD2EeyPFZNw_Xs21g">
+            <eAnnotations xmi:id="_hsTb0qD2EeyPFZNw_Xs21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_hsTb06D2EeyPFZNw_Xs21g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_hsTb0aD2EeyPFZNw_Xs21g" name="con" type="_hsBvAKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsTb1KD2EeyPFZNw_Xs21g" type="_hpIMAKD2EeyPFZNw_Xs21g" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hpLPUKD2EeyPFZNw_Xs21g" name="ScoreSql">
+          <ownedAttribute xmi:id="_hpLPUaD2EeyPFZNw_Xs21g" name="selectAll" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hpL2YKD2EeyPFZNw_Xs21g" value="&quot;select * from Score&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hpL2YqD2EeyPFZNw_Xs21g" name="insertScore">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hpL2Y6D2EeyPFZNw_Xs21g" value="&quot;insert into score values(?,?,?,?,?,?,?)&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hpMdcaD2EeyPFZNw_Xs21g" name="findScore">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hpMdcqD2EeyPFZNw_Xs21g" value="&quot;select * from score where name = ?&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hpMddKD2EeyPFZNw_Xs21g" name="updateScore">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hpNEgKD2EeyPFZNw_Xs21g" value="&quot;update Score  set  kor=?, eng=?, mat=? where name=?&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hpNEgqD2EeyPFZNw_Xs21g" name="deleteScore" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hpNEg6D2EeyPFZNw_Xs21g" value="&quot;delete from Score where name = ?&quot;"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_htV9oKD2EeyPFZNw_Xs21g" name="" memberEnd="_htV9oaD2EeyPFZNw_Xs21g _hsXtQ6D2EeyPFZNw_Xs21g">
+          <ownedEnd xmi:id="_htV9oaD2EeyPFZNw_Xs21g" name="" type="_hpIMAKD2EeyPFZNw_Xs21g" association="_htV9oKD2EeyPFZNw_Xs21g"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hn6EAaD2EeyPFZNw_Xs21g" name="entity">
+        <packagedElement xmi:type="uml:Class" xmi:id="_hpNrkaD2EeyPFZNw_Xs21g" name="Score">
+          <ownedAttribute xmi:id="_hsYUUaD2EeyPFZNw_Xs21g" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hsY7YKD2EeyPFZNw_Xs21g" name="kor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hsbXoKD2EeyPFZNw_Xs21g" name="tot" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hsb-saD2EeyPFZNw_Xs21g" name="avg" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hsclwaD2EeyPFZNw_Xs21g" name="grade" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_htRFIKD2EeyPFZNw_Xs21g" name="eng">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_htRsMaD2EeyPFZNw_Xs21g" name="mat">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htOB1qD2EeyPFZNw_Xs21g" name="Score" specification="_hpOSoKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htOB16D2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" direction="return"/>
+            <language>java</language>
+            <body>super();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htOo4KD2EeyPFZNw_Xs21g" name="Score" specification="_hpO5s6D2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htOo4aD2EeyPFZNw_Xs21g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_htOo4qD2EeyPFZNw_Xs21g" name="kor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_htOo46D2EeyPFZNw_Xs21g" name="eng">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_htOo5KD2EeyPFZNw_Xs21g" name="mat">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_htOo5aD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" direction="return"/>
+            <language>java</language>
+            <body>super();&#xD;
+		this.name = name;&#xD;
+		this.kor = kor;&#xD;
+		this.eng = eng;&#xD;
+		this.mat = mat;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htOo5qD2EeyPFZNw_Xs21g" name="getEng" specification="_hpPgw6D2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htOo56D2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return eng;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htOo6KD2EeyPFZNw_Xs21g" name="setEng" specification="_hpPgxaD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htOo6aD2EeyPFZNw_Xs21g" name="eng">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.eng = eng;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htOo6qD2EeyPFZNw_Xs21g" name="getMat" specification="_hpPgx6D2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htOo66D2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return mat;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htOo7KD2EeyPFZNw_Xs21g" name="setMat" specification="_hpQH0aD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htOo7aD2EeyPFZNw_Xs21g" name="mat">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.mat = mat;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hpOSoKD2EeyPFZNw_Xs21g" name="Score" method="_htOB1qD2EeyPFZNw_Xs21g">
+            <eAnnotations xmi:id="_hpO5sKD2EeyPFZNw_Xs21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_hpO5saD2EeyPFZNw_Xs21g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_hpO5sqD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hpO5s6D2EeyPFZNw_Xs21g" name="Score" method="_htOo4KD2EeyPFZNw_Xs21g">
+            <eAnnotations xmi:id="_hpPgwKD2EeyPFZNw_Xs21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_hpPgwaD2EeyPFZNw_Xs21g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_hpO5tKD2EeyPFZNw_Xs21g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hpO5taD2EeyPFZNw_Xs21g" name="kor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hpO5tqD2EeyPFZNw_Xs21g" name="eng">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hpO5t6D2EeyPFZNw_Xs21g" name="mat">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hpPgwqD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hpPgw6D2EeyPFZNw_Xs21g" name="getEng" method="_htOo5qD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hpPgxKD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hpPgxaD2EeyPFZNw_Xs21g" name="setEng" method="_htOo6KD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hpPgxqD2EeyPFZNw_Xs21g" name="eng">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hpPgx6D2EeyPFZNw_Xs21g" name="getMat" method="_htOo6qD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hpQH0KD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hpQH0aD2EeyPFZNw_Xs21g" name="setMat" method="_htOo7KD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hpQH0qD2EeyPFZNw_Xs21g" name="mat">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hn6rEKD2EeyPFZNw_Xs21g" name="common">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ho0qAKD2EeyPFZNw_Xs21g" name="JdbcTemplate">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htIiQ6D2EeyPFZNw_Xs21g" name="getConnection" specification="_ho1REKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htIiRKD2EeyPFZNw_Xs21g" type="_hsBvAKD2EeyPFZNw_Xs21g" direction="return"/>
+            <language>java</language>
+            <body>Connection conn = null;&#xD;
+		&#xD;
+		try {&#xD;
+			Context initContext = new InitialContext();								//?뱁濡???珥湲고&#xD;
+			Context envContext = (Context)initContext.lookup(&quot;java:/comp/env&quot;);		//?寃쎌ㅼ ???由??ㅼ&#xD;
+			DataSource ds = (DataSource)envContext.lookup(&quot;jdbc/TestDB&quot;);				//?곗댄곕??댁??곌껐 蹂移&#xD;
+													&#xD;
+			conn = ds.getConnection();												//寃곌낵 ???#xD;
+			conn.setAutoCommit(false);&#xD;
+			&#xD;
+		}catch (Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+		return conn;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htIiRaD2EeyPFZNw_Xs21g" name="isConnection" specification="_hsC9IKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htIiRqD2EeyPFZNw_Xs21g" name="conn" type="_hsBvAKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htIiR6D2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>boolean valid = true;&#xD;
+		&#xD;
+		try {&#xD;
+			if(conn == null || conn.isClosed()) {&#xD;
+				valid = false;&#xD;
+			}&#xD;
+			&#xD;
+		} catch (SQLException se) {&#xD;
+			// TODO: handle exception&#xD;
+			valid = true;&#xD;
+			se.printStackTrace();&#xD;
+		}&#xD;
+		return valid;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htJJUKD2EeyPFZNw_Xs21g" name="close" specification="_hsDkMaD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htJJUaD2EeyPFZNw_Xs21g" name="rs" type="_hsC9I6D2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>try {&#xD;
+			if(rs != null)&#xD;
+				rs.close();&#xD;
+		} catch (SQLException e) {&#xD;
+			// TODO Auto-generated catch block&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htJJUqD2EeyPFZNw_Xs21g" name="close" specification="_hsEyUKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htJJU6D2EeyPFZNw_Xs21g" name="st" type="_hsELQKD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>try {&#xD;
+			if(st != null)&#xD;
+				st.close();&#xD;
+		} catch (SQLException e) {&#xD;
+			// TODO Auto-generated catch block&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htJJVKD2EeyPFZNw_Xs21g" name="close" specification="_hsEyUqD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htJJVaD2EeyPFZNw_Xs21g" name="conn" type="_hsBvAKD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>try {&#xD;
+			if(isConnection(conn))&#xD;
+				conn.close();&#xD;
+		} catch (SQLException e) {&#xD;
+			// TODO Auto-generated catch block&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htJJVqD2EeyPFZNw_Xs21g" name="commit" specification="_hsFZYKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htJJV6D2EeyPFZNw_Xs21g" name="conn" type="_hsBvAKD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>if(isConnection(conn))	{&#xD;
+			try {&#xD;
+				conn.commit();&#xD;
+			} catch (SQLException e) {&#xD;
+				// TODO Auto-generated catch block&#xD;
+				e.printStackTrace();&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htJwYKD2EeyPFZNw_Xs21g" name="rollback" specification="_hsFZYqD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htJwYaD2EeyPFZNw_Xs21g" name="conn" type="_hsBvAKD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>if(isConnection(conn))&#xD;
+		{&#xD;
+			try {&#xD;
+				conn.rollback();&#xD;
+			} catch (SQLException e) {&#xD;
+				// TODO Auto-generated catch block&#xD;
+				e.printStackTrace();&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ho1REKD2EeyPFZNw_Xs21g" name="getConnection" isStatic="true" method="_htIiQ6D2EeyPFZNw_Xs21g">
+            <ownedComment xmi:id="_htP3AaD2EeyPFZNw_Xs21g">
+              <body>?곌껐</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_hsCWEaD2EeyPFZNw_Xs21g" type="_hsBvAKD2EeyPFZNw_Xs21g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsC9IKD2EeyPFZNw_Xs21g" name="isConnection" isStatic="true" method="_htIiRaD2EeyPFZNw_Xs21g">
+            <ownedComment xmi:id="_htP3AqD2EeyPFZNw_Xs21g">
+              <body>?곌껐???/body>
+            </ownedComment>
+            <ownedParameter xmi:id="_hsC9IaD2EeyPFZNw_Xs21g" name="conn" type="_hsBvAKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsC9IqD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsDkMaD2EeyPFZNw_Xs21g" name="close" isStatic="true" method="_htJJUKD2EeyPFZNw_Xs21g">
+            <ownedComment xmi:id="_htQeEKD2EeyPFZNw_Xs21g">
+              <body>_ResultSet close</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_hsDkMqD2EeyPFZNw_Xs21g" name="rs" type="_hsC9I6D2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsEyUKD2EeyPFZNw_Xs21g" name="close" isStatic="true" method="_htJJUqD2EeyPFZNw_Xs21g">
+            <ownedComment xmi:id="_htQeEaD2EeyPFZNw_Xs21g">
+              <body>_Statement close</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_hsEyUaD2EeyPFZNw_Xs21g" name="st" type="_hsELQKD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsEyUqD2EeyPFZNw_Xs21g" name="close" isStatic="true" method="_htJJVKD2EeyPFZNw_Xs21g">
+            <ownedComment xmi:id="_htQeEqD2EeyPFZNw_Xs21g">
+              <body>_Connection close</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_hsEyU6D2EeyPFZNw_Xs21g" name="conn" type="_hsBvAKD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsFZYKD2EeyPFZNw_Xs21g" name="commit" isStatic="true" method="_htJJVqD2EeyPFZNw_Xs21g">
+            <ownedComment xmi:id="_htQeE6D2EeyPFZNw_Xs21g">
+              <body>commit</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_hsFZYaD2EeyPFZNw_Xs21g" name="conn" type="_hsBvAKD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsFZYqD2EeyPFZNw_Xs21g" name="rollback" isStatic="true" method="_htJwYKD2EeyPFZNw_Xs21g">
+            <ownedComment xmi:id="_htQeFKD2EeyPFZNw_Xs21g">
+              <body>rollback</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_hsFZY6D2EeyPFZNw_Xs21g" name="conn" type="_hsBvAKD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hoQCQKD2EeyPFZNw_Xs21g" name="biz">
+        <packagedElement xmi:type="uml:Class" xmi:id="_horgEKD2EeyPFZNw_Xs21g" name="ScoreBiz">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hsmWwKD2EeyPFZNw_Xs21g" name="getScoreAll" specification="_hot8UaD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsmWwaD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" isOrdered="true" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hsmWwqD2EeyPFZNw_Xs21g" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>Connection conn = getConnection();&#xD;
+		List&lt;Score> result = new ScoreDao(conn).getScoreAll();&#xD;
+		&#xD;
+		close(conn);&#xD;
+		&#xD;
+		return result;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htH7MKD2EeyPFZNw_Xs21g" name="getScoreInsert" specification="_hrh_wKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htH7MaD2EeyPFZNw_Xs21g" name="myScore" type="_hpNrkaD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htH7MqD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>Connection conn = getConnection();&#xD;
+		int result = new ScoreDao(conn).getScoreInsert(myScore);&#xD;
+&#xD;
+		close(conn);		&#xD;
+		return result;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htH7M6D2EeyPFZNw_Xs21g" name="getScoreUpdate" specification="_hrim0aD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htH7NKD2EeyPFZNw_Xs21g" name="myScore" type="_hpNrkaD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htH7NaD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>Connection conn = getConnection();&#xD;
+		int result = new ScoreDao(conn).getScoreUpdate(myScore);&#xD;
+&#xD;
+		close(conn);		&#xD;
+		return result;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htH7NqD2EeyPFZNw_Xs21g" name="getScoreDelete" specification="_hoxmsKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htH7N6D2EeyPFZNw_Xs21g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_htH7OKD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>Connection conn = getConnection();&#xD;
+		int result = new ScoreDao(conn).getScoreDelete(name);&#xD;
+&#xD;
+		close(conn);		&#xD;
+		return result;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htIiQKD2EeyPFZNw_Xs21g" name="getScoreFind" specification="_hoyNwKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htIiQaD2EeyPFZNw_Xs21g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_htIiQqD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" direction="return"/>
+            <language>java</language>
+            <body>Connection conn = getConnection();&#xD;
+		Score result = new ScoreDao(conn).getScoreFind(name);&#xD;
+&#xD;
+		close(conn);		&#xD;
+		return result;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hot8UaD2EeyPFZNw_Xs21g" name="getScoreAll" method="_hsmWwKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hovxgKD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" isOrdered="true" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hovxgaD2EeyPFZNw_Xs21g" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hoxmsKD2EeyPFZNw_Xs21g" name="getScoreDelete" method="_htH7NqD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hoxmsaD2EeyPFZNw_Xs21g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hoxmsqD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hoyNwKD2EeyPFZNw_Xs21g" name="getScoreFind" method="_htIiQKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hoyNwaD2EeyPFZNw_Xs21g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hrjN4qD2EeyPFZNw_Xs21g" type="_hpNrkaD2EeyPFZNw_Xs21g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hrh_wKD2EeyPFZNw_Xs21g" name="getScoreInsert" method="_htH7MKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hrh_waD2EeyPFZNw_Xs21g" name="myScore" type="_hpNrkaD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hrh_wqD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hrim0aD2EeyPFZNw_Xs21g" name="getScoreUpdate" method="_htH7M6D2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hrim0qD2EeyPFZNw_Xs21g" name="myScore" type="_hpNrkaD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hrjN4KD2EeyPFZNw_Xs21g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hoYlIKD2EeyPFZNw_Xs21g" name="controller">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ho4UYKD2EeyPFZNw_Xs21g" name="MyController">
+          <generalization xmi:id="_hsLgAaD2EeyPFZNw_Xs21g" general="_hrpUgaD2EeyPFZNw_Xs21g"/>
+          <ownedAttribute xmi:id="_hsV4EKD2EeyPFZNw_Xs21g" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hsV4EaD2EeyPFZNw_Xs21g" value="1L"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htJwYqD2EeyPFZNw_Xs21g" name="doGet" specification="_hsGngKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htJwY6D2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htJwZKD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>String _url = request.getRequestURI();&#xD;
+		&#xD;
+		if (_url.endsWith(&quot;ScoreAll&quot;)) {&#xD;
+			doScoreAll(request, response);&#xD;
+		} else if (_url.endsWith(&quot;ScoreUpdate&quot;)) {&#xD;
+			doScoreUpdate(request, response);&#xD;
+		} else if (_url.endsWith(&quot;ScoreDelete&quot;)) {&#xD;
+			doScoreDelete(request, response);&#xD;
+		} else if (_url.endsWith(&quot;ScoreFind&quot;)) {&#xD;
+			doScoreFind(request, response);&#xD;
+		} else if (_url.endsWith(&quot;ScoreInput&quot;)) {&#xD;
+			doScoreInput(request, response);&#xD;
+		}&#xD;
+&#xD;
+&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htJwZaD2EeyPFZNw_Xs21g" name="doScoreAll" specification="_hsIcsKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htJwZqD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htJwZ6D2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>List&lt;Score> all = new ScoreBiz().getScoreAll();&#xD;
+		&#xD;
+		request.setAttribute(&quot;all&quot;, all);&#xD;
+		&#xD;
+		RequestDispatcher rd = request.getRequestDispatcher(&quot;ScoreAll.jsp&quot;);&#xD;
+		rd.forward(request,response);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htKXcKD2EeyPFZNw_Xs21g" name="doScoreDelete" specification="_hsJDwKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htKXcaD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htKXcqD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>int r = new ScoreBiz().getScoreDelete(request.getParameter(&quot;name&quot;));&#xD;
+		if(r > 0)&#xD;
+			response.sendRedirect(&quot;ScoreAll&quot;);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htKXc6D2EeyPFZNw_Xs21g" name="doScoreFind" specification="_hsJq0KD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htKXdKD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htKXdaD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>String name = request.getParameter(&quot;name&quot;);&#xD;
+		Score myScore = new ScoreBiz().getScoreFind(name);&#xD;
+		&#xD;
+		request.setAttribute(&quot;find&quot;, myScore);&#xD;
+		RequestDispatcher rd = request.getRequestDispatcher(&quot;ScoreUpdate.jsp&quot;);&#xD;
+		rd.forward(request, response);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htKXdqD2EeyPFZNw_Xs21g" name="doScoreInput" specification="_hsKR4KD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htKXd6D2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htKXeKD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>Score myScore = new Score();&#xD;
+		String name = request.getParameter(&quot;name&quot;);&#xD;
+		int kor = Integer.parseInt(request.getParameter(&quot;kor&quot;));&#xD;
+		int eng = Integer.parseInt(request.getParameter(&quot;eng&quot;));&#xD;
+		int mat = Integer.parseInt(request.getParameter(&quot;mat&quot;));&#xD;
+		myScore.setName(name);&#xD;
+		myScore.setKor(kor);&#xD;
+		myScore.setEng(eng);&#xD;
+		myScore.setMat(mat);&#xD;
+		&#xD;
+		ScoreBiz biz = new ScoreBiz();&#xD;
+		int r = biz.getScoreInsert(myScore);&#xD;
+		if(r>0)&#xD;
+		{&#xD;
+			response.sendRedirect(&quot;ScoreAll&quot;);&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htKXeaD2EeyPFZNw_Xs21g" name="doScoreUpdate" specification="_hsK48KD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htKXeqD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htKXe6D2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>String name = request.getParameter(&quot;name&quot;);&#xD;
+	int kor = Integer.parseInt(request.getParameter(&quot;kor&quot;));&#xD;
+	int eng = Integer.parseInt(request.getParameter(&quot;eng&quot;));&#xD;
+	int mat = Integer.parseInt(request.getParameter(&quot;mat&quot;));&#xD;
+	&#xD;
+	Score myScore = new Score(name, kor, eng, mat);&#xD;
+	&#xD;
+	int r = new ScoreBiz().getScoreUpdate(myScore);&#xD;
+	if(r>0)&#xD;
+		response.sendRedirect(&quot;ScoreAll&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hsGngKD2EeyPFZNw_Xs21g" name="doGet" visibility="protected" method="_htJwYqD2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsGngaD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsGngqD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsIcsKD2EeyPFZNw_Xs21g" name="doScoreAll" visibility="protected" method="_htJwZaD2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsIcsaD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsIcsqD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsJDwKD2EeyPFZNw_Xs21g" name="doScoreDelete" visibility="protected" method="_htKXcKD2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsJDwaD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsJDwqD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsJq0KD2EeyPFZNw_Xs21g" name="doScoreFind" visibility="protected" method="_htKXc6D2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsJq0aD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsJq0qD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsKR4KD2EeyPFZNw_Xs21g" name="doScoreInput" visibility="protected" method="_htKXdqD2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsKR4aD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsKR4qD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hsK48KD2EeyPFZNw_Xs21g" name="doScoreUpdate" visibility="protected" method="_htKXeaD2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsK48aD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsK48qD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hpAQMKD2EeyPFZNw_Xs21g" name="ScoreAll">
+          <generalization xmi:id="_hsNVMqD2EeyPFZNw_Xs21g" general="_hrpUgaD2EeyPFZNw_Xs21g"/>
+          <ownedAttribute xmi:id="_hsWfIKD2EeyPFZNw_Xs21g" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hsWfIaD2EeyPFZNw_Xs21g" value="1L"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htK-gKD2EeyPFZNw_Xs21g" name="doGet" specification="_hsMHEKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htK-gaD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htK-gqD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>List&lt;Score> all = new ScoreBiz().getScoreAll();&#xD;
+		&#xD;
+		request.setAttribute(&quot;all&quot;, all);&#xD;
+		&#xD;
+		RequestDispatcher rd = request.getRequestDispatcher(&quot;ScoreAll.jsp&quot;);&#xD;
+		rd.forward(request,response);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hsMHEKD2EeyPFZNw_Xs21g" name="doGet" visibility="protected" method="_htK-gKD2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsMuIKD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsMuIaD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hpCFYKD2EeyPFZNw_Xs21g" name="ScoreDelete">
+          <generalization xmi:id="_hsPKYqD2EeyPFZNw_Xs21g" general="_hrpUgaD2EeyPFZNw_Xs21g"/>
+          <ownedAttribute xmi:id="_hsWfIqD2EeyPFZNw_Xs21g" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hsXGMKD2EeyPFZNw_Xs21g" value="1L"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htK-g6D2EeyPFZNw_Xs21g" name="doGet" specification="_hsOjUKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htK-hKD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htK-haD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>int r = new ScoreBiz().getScoreDelete(request.getParameter(&quot;name&quot;));&#xD;
+		if(r > 0)&#xD;
+			response.sendRedirect(&quot;ScoreAll&quot;);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hsOjUKD2EeyPFZNw_Xs21g" name="doGet" visibility="protected" method="_htK-g6D2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsOjUaD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsOjUqD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hpD6kKD2EeyPFZNw_Xs21g" name="ScoreFind">
+          <generalization xmi:id="_hsQYgqD2EeyPFZNw_Xs21g" general="_hrpUgaD2EeyPFZNw_Xs21g"/>
+          <ownedAttribute xmi:id="_hsXGMaD2EeyPFZNw_Xs21g" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hsXGMqD2EeyPFZNw_Xs21g" value="1L"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htLlkKD2EeyPFZNw_Xs21g" name="doGet" specification="_hsPxcKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htLlkaD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htLlkqD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>String name = request.getParameter(&quot;name&quot;);&#xD;
+		Score myScore = new ScoreBiz().getScoreFind(name);&#xD;
+		&#xD;
+		request.setAttribute(&quot;find&quot;, myScore);&#xD;
+		RequestDispatcher rd = request.getRequestDispatcher(&quot;ScoreUpdate.jsp&quot;);&#xD;
+		rd.forward(request, response);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hsPxcKD2EeyPFZNw_Xs21g" name="doGet" visibility="protected" method="_htLlkKD2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsPxcaD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsPxcqD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hpFIsKD2EeyPFZNw_Xs21g" name="ScoreInput">
+          <generalization xmi:id="_hsRmoqD2EeyPFZNw_Xs21g" general="_hrpUgaD2EeyPFZNw_Xs21g"/>
+          <ownedAttribute xmi:id="_hsXGM6D2EeyPFZNw_Xs21g" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hsXtQKD2EeyPFZNw_Xs21g" value="1L"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htLlk6D2EeyPFZNw_Xs21g" name="doGet" specification="_hsQ_kKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htLllKD2EeyPFZNw_Xs21g" name="req" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htLllaD2EeyPFZNw_Xs21g" name="resp" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>Score myScore = new Score();&#xD;
+		String name = req.getParameter(&quot;name&quot;);&#xD;
+		int kor = Integer.parseInt(req.getParameter(&quot;kor&quot;));&#xD;
+		int eng = Integer.parseInt(req.getParameter(&quot;eng&quot;));&#xD;
+		int mat = Integer.parseInt(req.getParameter(&quot;mat&quot;));&#xD;
+		myScore.setName(name);&#xD;
+		myScore.setKor(kor);&#xD;
+		myScore.setEng(eng);&#xD;
+		myScore.setMat(mat);&#xD;
+		&#xD;
+		ScoreBiz biz = new ScoreBiz();&#xD;
+		int r = biz.getScoreInsert(myScore);&#xD;
+		if(r>0)&#xD;
+		{&#xD;
+			resp.sendRedirect(&quot;ScoreAll&quot;);&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hsQ_kKD2EeyPFZNw_Xs21g" name="doGet" visibility="protected" method="_htLlk6D2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsQ_kaD2EeyPFZNw_Xs21g" name="req" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsQ_kqD2EeyPFZNw_Xs21g" name="resp" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hpG94KD2EeyPFZNw_Xs21g" name="ScoreUpdate">
+          <generalization xmi:id="_hsS0w6D2EeyPFZNw_Xs21g" general="_hrpUgaD2EeyPFZNw_Xs21g"/>
+          <ownedAttribute xmi:id="_hsXtQaD2EeyPFZNw_Xs21g" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hsXtQqD2EeyPFZNw_Xs21g" value="1L"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_htLllqD2EeyPFZNw_Xs21g" name="doGet" specification="_hsSNsKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_htLll6D2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_htLlmKD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+            <language>java</language>
+            <body>String name = request.getParameter(&quot;name&quot;);&#xD;
+		int kor = Integer.parseInt(request.getParameter(&quot;kor&quot;));&#xD;
+		int eng = Integer.parseInt(request.getParameter(&quot;eng&quot;));&#xD;
+		int mat = Integer.parseInt(request.getParameter(&quot;mat&quot;));&#xD;
+		&#xD;
+		Score myScore = new Score(name, kor, eng, mat);&#xD;
+		&#xD;
+		int r = new ScoreBiz().getScoreUpdate(myScore);&#xD;
+		if(r>0)&#xD;
+			response.sendRedirect(&quot;ScoreAll&quot;);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hsSNsKD2EeyPFZNw_Xs21g" name="doGet" visibility="protected" method="_htLllqD2EeyPFZNw_Xs21g" raisedException="_hrotcqD2EeyPFZNw_Xs21g _hrm4QKD2EeyPFZNw_Xs21g">
+            <ownedParameter xmi:id="_hsSNsaD2EeyPFZNw_Xs21g" name="request" type="_hrqioKD2EeyPFZNw_Xs21g"/>
+            <ownedParameter xmi:id="_hsSNsqD2EeyPFZNw_Xs21g" name="response" type="_hrrJsaD2EeyPFZNw_Xs21g"/>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hnz9YKD2EeyPFZNw_Xs21g" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hnz9YaD2EeyPFZNw_Xs21g" name="sql">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hsBvAKD2EeyPFZNw_Xs21g" name="Connection"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hsC9I6D2EeyPFZNw_Xs21g" name="ResultSet"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hsELQKD2EeyPFZNw_Xs21g" name="Statement"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hn1LgKD2EeyPFZNw_Xs21g" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hrgKkKD2EeyPFZNw_Xs21g" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hoU6wKD2EeyPFZNw_Xs21g" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_hrm4QKD2EeyPFZNw_Xs21g" name="IOException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hn1LgaD2EeyPFZNw_Xs21g" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hn1LgqD2EeyPFZNw_Xs21g" name="servlet">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hn1Lg6D2EeyPFZNw_Xs21g" name="annotation">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_hrgxoaD2EeyPFZNw_Xs21g" name="WebServlet"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_hoVh0KD2EeyPFZNw_Xs21g" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_hrpUgaD2EeyPFZNw_Xs21g" name="HttpServlet"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_hrqioKD2EeyPFZNw_Xs21g" name="HttpServletRequest"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_hrrJsaD2EeyPFZNw_Xs21g" name="HttpServletResponse"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hrotcKD2EeyPFZNw_Xs21g" name="RequestDispatcher"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hrotcqD2EeyPFZNw_Xs21g" name="ServletException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hoRQYKD2EeyPFZNw_Xs21g" name="naming">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hrj08KD2EeyPFZNw_Xs21g" name="Context"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hrkcAaD2EeyPFZNw_Xs21g" name="InitialContext"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hoR3cKD2EeyPFZNw_Xs21g" name="sql">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hrlDEaD2EeyPFZNw_Xs21g" name="DataSource"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_hbbHMKD2EeyPFZNw_Xs21g">
+      <eAnnotations xmi:id="_hbeKgKD2EeyPFZNw_Xs21g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_hbf_sKD2EeyPFZNw_Xs21g" base_Package="_hKZooKD2EeyPFZNw_Xs21g">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hot8UKD2EeyPFZNw_Xs21g" base_Element="_horgEKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:StyledElement xmi:id="_howYkKD2EeyPFZNw_Xs21g" base_Element="_hot8UaD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:StyledElement xmi:id="_hoxms6D2EeyPFZNw_Xs21g" base_Element="_hoxmsKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:StyledElement xmi:id="_hoyNwqD2EeyPFZNw_Xs21g" base_Element="_hoyNwKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Annotations xmi:id="_hoy00KD2EeyPFZNw_Xs21g" base_Element="_horgEKD2EeyPFZNw_Xs21g">
+    <annotations xmi:id="_hoy00aD2EeyPFZNw_Xs21g" name="WebServlet">
+      <annotationParameters xmi:id="_hozb4KD2EeyPFZNw_Xs21g" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_htP3AKD2EeyPFZNw_Xs21g" value="&quot;/ScoreBiz&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ho47cKD2EeyPFZNw_Xs21g" base_Element="_ho4UYKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Annotations xmi:id="_ho6JkKD2EeyPFZNw_Xs21g" base_Element="_ho4UYKD2EeyPFZNw_Xs21g">
+    <annotations xmi:id="_ho6woKD2EeyPFZNw_Xs21g" name="WebServlet">
+      <annotationParameters xmi:id="_ho6woaD2EeyPFZNw_Xs21g" skipName="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_htQeFaD2EeyPFZNw_Xs21g" value="&quot;/MyController&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_htQeFqD2EeyPFZNw_Xs21g" value="&quot;/ScoreAll&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_htQeF6D2EeyPFZNw_Xs21g" value="&quot;/ScoreDelete&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_htQeGKD2EeyPFZNw_Xs21g" value="&quot;/ScoreUpdate&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_htQeGaD2EeyPFZNw_Xs21g" value="&quot;/ScoreFind&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_htQeGqD2EeyPFZNw_Xs21g" value="&quot;/ScoreInput&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hpL2YaD2EeyPFZNw_Xs21g" base_Element="_hpLPUaD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hpMdcKD2EeyPFZNw_Xs21g" base_Element="_hpL2YqD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hpMdc6D2EeyPFZNw_Xs21g" base_Element="_hpMdcaD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hpNEgaD2EeyPFZNw_Xs21g" base_Element="_hpMddKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hpNrkKD2EeyPFZNw_Xs21g" base_Element="_hpNEgqD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hrgxoKD2EeyPFZNw_Xs21g" base_Element="_hrgKkKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hrhYsKD2EeyPFZNw_Xs21g" base_Element="_hrgxoaD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:StyledElement xmi:id="_hrim0KD2EeyPFZNw_Xs21g" base_Element="_hrh_wKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:StyledElement xmi:id="_hrjN4aD2EeyPFZNw_Xs21g" base_Element="_hrim0aD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hrkcAKD2EeyPFZNw_Xs21g" base_Element="_hrj08KD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hrlDEKD2EeyPFZNw_Xs21g" base_Element="_hrkcAaD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hrlqIKD2EeyPFZNw_Xs21g" base_Element="_hrlDEaD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hroGYKD2EeyPFZNw_Xs21g" base_Element="_hrm4QKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hrotcaD2EeyPFZNw_Xs21g" base_Element="_hrotcKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hrpUgKD2EeyPFZNw_Xs21g" base_Element="_hrotcqD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hrp7kKD2EeyPFZNw_Xs21g" base_Element="_hrpUgaD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hrrJsKD2EeyPFZNw_Xs21g" base_Element="_hrqioKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hrrwwKD2EeyPFZNw_Xs21g" base_Element="_hrrJsaD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hsCWEKD2EeyPFZNw_Xs21g" base_Element="_hsBvAKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hsDkMKD2EeyPFZNw_Xs21g" base_Element="_hsC9I6D2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_hsELQaD2EeyPFZNw_Xs21g" base_Element="_hsELQKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Annotations xmi:id="_hsH1oKD2EeyPFZNw_Xs21g" base_Element="_hsGngKD2EeyPFZNw_Xs21g">
+    <annotations xmi:id="_hsH1oaD2EeyPFZNw_Xs21g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_hsIcs6D2EeyPFZNw_Xs21g" base_Element="_hsIcsKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:StyledElement xmi:id="_hsJDw6D2EeyPFZNw_Xs21g" base_Element="_hsJDwKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:StyledElement xmi:id="_hsJq06D2EeyPFZNw_Xs21g" base_Element="_hsJq0KD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:StyledElement xmi:id="_hsKR46D2EeyPFZNw_Xs21g" base_Element="_hsKR4KD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:StyledElement xmi:id="_hsLgAKD2EeyPFZNw_Xs21g" base_Element="_hsK48KD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hsMuIqD2EeyPFZNw_Xs21g" base_Element="_hsMHEKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Annotations xmi:id="_hsNVMKD2EeyPFZNw_Xs21g" base_Element="_hsMHEKD2EeyPFZNw_Xs21g">
+    <annotations xmi:id="_hsNVMaD2EeyPFZNw_Xs21g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hsOjU6D2EeyPFZNw_Xs21g" base_Element="_hsOjUKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Annotations xmi:id="_hsPKYKD2EeyPFZNw_Xs21g" base_Element="_hsOjUKD2EeyPFZNw_Xs21g">
+    <annotations xmi:id="_hsPKYaD2EeyPFZNw_Xs21g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hsPxc6D2EeyPFZNw_Xs21g" base_Element="_hsPxcKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Annotations xmi:id="_hsQYgKD2EeyPFZNw_Xs21g" base_Element="_hsPxcKD2EeyPFZNw_Xs21g">
+    <annotations xmi:id="_hsQYgaD2EeyPFZNw_Xs21g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hsQ_k6D2EeyPFZNw_Xs21g" base_Element="_hsQ_kKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Annotations xmi:id="_hsRmoKD2EeyPFZNw_Xs21g" base_Element="_hsQ_kKD2EeyPFZNw_Xs21g">
+    <annotations xmi:id="_hsRmoaD2EeyPFZNw_Xs21g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hsS0wKD2EeyPFZNw_Xs21g" base_Element="_hsSNsKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Annotations xmi:id="_hsS0waD2EeyPFZNw_Xs21g" base_Element="_hsSNsKD2EeyPFZNw_Xs21g">
+    <annotations xmi:id="_hsS0wqD2EeyPFZNw_Xs21g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_hsV4EqD2EeyPFZNw_Xs21g" base_Element="_hsV4EKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hsYUUKD2EeyPFZNw_Xs21g" base_Element="_hsXtQ6D2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hsY7YaD2EeyPFZNw_Xs21g" base_Element="_hsY7YKD2EeyPFZNw_Xs21g">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_hsaJgKD2EeyPFZNw_Xs21g" name="getKor" method="_htMzuaD2EeyPFZNw_Xs21g">
+      <ownedParameter xmi:id="_hsawkKD2EeyPFZNw_Xs21g" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_hsaJgaD2EeyPFZNw_Xs21g" name="setKor" method="_htNawaD2EeyPFZNw_Xs21g">
+      <ownedParameter xmi:id="_hsaJgqD2EeyPFZNw_Xs21g" name="kor">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:MultiDeclaration xmi:id="_hsY7YqD2EeyPFZNw_Xs21g" base_Property="_hsY7YKD2EeyPFZNw_Xs21g" siblings="_htRFIKD2EeyPFZNw_Xs21g _htRsMaD2EeyPFZNw_Xs21g" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hsbXoaD2EeyPFZNw_Xs21g" base_Element="_hsbXoKD2EeyPFZNw_Xs21g">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_hsbXoqD2EeyPFZNw_Xs21g" name="getTot" method="_htOB0KD2EeyPFZNw_Xs21g">
+      <ownedParameter xmi:id="_hsb-sKD2EeyPFZNw_Xs21g" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hsb-sqD2EeyPFZNw_Xs21g" base_Element="_hsb-saD2EeyPFZNw_Xs21g">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_hsb-s6D2EeyPFZNw_Xs21g" name="getAvg" method="_htOB0qD2EeyPFZNw_Xs21g">
+      <ownedParameter xmi:id="_hsclwKD2EeyPFZNw_Xs21g" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hsclwqD2EeyPFZNw_Xs21g" base_Element="_hsclwaD2EeyPFZNw_Xs21g">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_hsclw6D2EeyPFZNw_Xs21g" name="getGrade" method="_htOB1KD2EeyPFZNw_Xs21g">
+      <ownedParameter xmi:id="_hsclxKD2EeyPFZNw_Xs21g" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <uml:OpaqueBehavior xmi:id="_htMzuaD2EeyPFZNw_Xs21g" name="getKor" specification="_hsaJgKD2EeyPFZNw_Xs21g">
+    <ownedParameter xmi:id="_htNawKD2EeyPFZNw_Xs21g" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return kor;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_htNawaD2EeyPFZNw_Xs21g" name="setKor" specification="_hsaJgaD2EeyPFZNw_Xs21g">
+    <ownedParameter xmi:id="_htNawqD2EeyPFZNw_Xs21g" name="kor">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.kor = kor;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_htOB0KD2EeyPFZNw_Xs21g" name="getTot" specification="_hsbXoqD2EeyPFZNw_Xs21g">
+    <ownedParameter xmi:id="_htOB0aD2EeyPFZNw_Xs21g" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>tot= this.getKor() + this.getEng() + this.getMat();&#xD;
+		return tot;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_htOB0qD2EeyPFZNw_Xs21g" name="getAvg" specification="_hsb-s6D2EeyPFZNw_Xs21g">
+    <ownedParameter xmi:id="_htOB06D2EeyPFZNw_Xs21g" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>avg=getTot()/3.0;&#xD;
+		 return avg;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_htOB1KD2EeyPFZNw_Xs21g" name="getGrade" specification="_hsclw6D2EeyPFZNw_Xs21g">
+    <ownedParameter xmi:id="_htOB1aD2EeyPFZNw_Xs21g" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>switch((int)getAvg()/10)&#xD;
+		{&#xD;
+		case 10:&#xD;
+		case 9: grade=&quot;A&quot;; break;&#xD;
+		case 8: grade=&quot;B&quot;; break;&#xD;
+		case 7: grade=&quot;C&quot;; break;&#xD;
+		case 6: grade=&quot;D&quot;; break;&#xD;
+		default: grade=&quot;F&quot;;&#xD;
+		}		&#xD;
+		return grade;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:MultiDeclaration xmi:id="_htRFIaD2EeyPFZNw_Xs21g" base_Property="_htRFIKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_htRsMKD2EeyPFZNw_Xs21g" base_Element="_htRFIKD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_htRsMqD2EeyPFZNw_Xs21g" base_Property="_htRsMaD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_htRsM6D2EeyPFZNw_Xs21g" base_Element="_htRsMaD2EeyPFZNw_Xs21g"/>
+  <UMLLabProfile:Reference xmi:id="_htWksKD2EeyPFZNw_Xs21g" base_Element="_htV9oKD2EeyPFZNw_Xs21g"/>
+</xmi:XMI>

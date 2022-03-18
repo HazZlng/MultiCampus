@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="parent" class = "sample7.Parent" abstract="true">
+		<property name = "email">
+			<props>
+				<prop key = "admin"> admin@gmail.com </prop>
+				<prop key = "admin02"> admin02@gmail.com </prop>
+				
+			</props>
+		</property>
+	</bean>
+	
+	<bean id="child" parent="parent">
+	<property name = "email">
+			<props merge="true">
+				<prop key = "admin03"> admin03@gmail.com </prop>
+				<prop key = "admin04"> admin04@gmail.com </prop>
+			</props>
+		</property>
+	</bean>
+	
+	<bean id="child02" parent="child">
+	<property name = "email">
+			<props merge="true">
+				<prop key = "admin05"> admin05@gmail.com </prop>
+				<prop key = "admin06"> admin06@gmail.com </prop>
+			</props>
+		</property>
+	</bean>
+	
+</beans>

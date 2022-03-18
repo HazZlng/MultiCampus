@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!--  public MessageImpl() 鍮 ?洹?-->
+    <bean id="mi" class="sample1.MessageImpl">  
+    </bean>
+    <!--  public MessageImpl (String fruit, int cost) {} -->
+    <bean id="mi02" class="sample1.MessageImpl">  
+    
+	   	<constructor-arg index="0" value="melon"/>
+	    <constructor-arg index="1" value="7000"/>
+	    
+    </bean>
+    
+     <bean id="exampleBean" class="sample1.ExampleBean">  
+	   	<constructor-arg index="0" value="kiwi"/>
+	    <constructor-arg index="1" value="50000"/> 
+    </bean>
+   </beans>

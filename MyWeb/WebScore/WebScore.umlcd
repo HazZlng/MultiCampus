@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_hMM_cKD2EeyPFZNw_Xs21g">
+  <modelElement href="WebScore.uml#_hnyvQKD2EeyPFZNw_Xs21g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h48wsaD2EeyPFZNw_Xs21g" targetItem="_h4-l46D2EeyPFZNw_Xs21g" sourceItem="_h48wsKD2EeyPFZNw_Xs21g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h49XwaD2EeyPFZNw_Xs21g" targetItem="_h4-l6KD2EeyPFZNw_Xs21g" sourceItem="_h49XwKD2EeyPFZNw_Xs21g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h49Xw6D2EeyPFZNw_Xs21g" targetItem="_h4-l8KD2EeyPFZNw_Xs21g" sourceItem="_h49XwqD2EeyPFZNw_Xs21g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h49-0aD2EeyPFZNw_Xs21g" targetItem="_h4-l9qD2EeyPFZNw_Xs21g" sourceItem="_h49-0KD2EeyPFZNw_Xs21g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h49-06D2EeyPFZNw_Xs21g" targetItem="_h4-l_KD2EeyPFZNw_Xs21g" sourceItem="_h49-0qD2EeyPFZNw_Xs21g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h49-1aD2EeyPFZNw_Xs21g" targetItem="_h4-mAqD2EeyPFZNw_Xs21g" sourceItem="_h49-1KD2EeyPFZNw_Xs21g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h49-16D2EeyPFZNw_Xs21g" targetItem="_h4-mCKD2EeyPFZNw_Xs21g" sourceItem="_h49-1qD2EeyPFZNw_Xs21g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_h5gKUKD2EeyPFZNw_Xs21g" sourceAnchor="141.0,0.0" targetAnchor="162.0,147.0" dashed="true" superClass="_h5bR0KD2EeyPFZNw_Xs21g" subClass="_h5lp4KD2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_hr7BUKD2EeyPFZNw_Xs21g"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_h5gxYKD2EeyPFZNw_Xs21g" source="_h5lp4KD2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_htV9oKD2EeyPFZNw_Xs21g"/>
+    <stereotypes xmi:id="_h5jNoaD2EeyPFZNw_Xs21g" name="Reference">
+      <modelElement href="WebScore.uml#_htWksKD2EeyPFZNw_Xs21g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_h5h_gKD2EeyPFZNw_Xs21g" text=""/>
+    <sourceRole xmi:id="_h5imkKD2EeyPFZNw_Xs21g" aggregationKind="NONE" name="">
+      <modelElement href="WebScore.uml#_htV9oaD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5j0saD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h5j0sKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_h5jNoKD2EeyPFZNw_Xs21g" aggregationKind="NONE" name="conn" navigable="true">
+      <modelElement href="WebScore.uml#_hsXtQ6D2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5kbwaD2EeyPFZNw_Xs21g" label="~"/>
+      <cardinality xmi:id="_h5kbwKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_h48wsKD2EeyPFZNw_Xs21g" sourceConnectionVisual="_h48wsaD2EeyPFZNw_Xs21g" text="?곌껐" item="_h4-l46D2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_htP3AaD2EeyPFZNw_Xs21g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_h49XwKD2EeyPFZNw_Xs21g" sourceConnectionVisual="_h49XwaD2EeyPFZNw_Xs21g" text="?곌껐??? item="_h4-l6KD2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_htP3AqD2EeyPFZNw_Xs21g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_h49XwqD2EeyPFZNw_Xs21g" sourceConnectionVisual="_h49Xw6D2EeyPFZNw_Xs21g" text="_ResultSet close" item="_h4-l8KD2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_htQeEKD2EeyPFZNw_Xs21g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_h49-0KD2EeyPFZNw_Xs21g" sourceConnectionVisual="_h49-0aD2EeyPFZNw_Xs21g" text="_Statement close" item="_h4-l9qD2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_htQeEaD2EeyPFZNw_Xs21g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_h49-0qD2EeyPFZNw_Xs21g" sourceConnectionVisual="_h49-06D2EeyPFZNw_Xs21g" text="_Connection close" item="_h4-l_KD2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_htQeEqD2EeyPFZNw_Xs21g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_h49-1KD2EeyPFZNw_Xs21g" sourceConnectionVisual="_h49-1aD2EeyPFZNw_Xs21g" text="commit" item="_h4-mAqD2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_htQeE6D2EeyPFZNw_Xs21g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_h49-1qD2EeyPFZNw_Xs21g" sourceConnectionVisual="_h49-16D2EeyPFZNw_Xs21g" text="rollback" item="_h4-mCKD2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_htQeFKD2EeyPFZNw_Xs21g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h3sMcKD2EeyPFZNw_Xs21g" name="ScoreBiz">
+    <modelElement href="WebScore.uml#_horgEKD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h3sMcaD2EeyPFZNw_Xs21g" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_h3sMcqD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+      <modelElement href="WebScore.uml#_hot8UKD2EeyPFZNw_Xs21g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_h3sMc6D2EeyPFZNw_Xs21g" name="Annotations">
+      <modelElement href="WebScore.uml#_hoy00KD2EeyPFZNw_Xs21g"/>
+    </stereotypes>
+    <visibility xmi:id="_h3sMdKD2EeyPFZNw_Xs21g" label="+"/>
+    <operations xmi:id="_h3sMdaD2EeyPFZNw_Xs21g" name="getScoreAll">
+      <modelElement href="WebScore.uml#_hot8UaD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h3sMdqD2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_howYkKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h3sMd6D2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h3sMeKD2EeyPFZNw_Xs21g" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_h3sMeaD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hovxgKD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h3sMeqD2EeyPFZNw_Xs21g" name="Score">
+          <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h3sMe6D2EeyPFZNw_Xs21g" name="getScoreDelete">
+      <modelElement href="WebScore.uml#_hoxmsKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h3sMfKD2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_hoxms6D2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h3sMfaD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h3sMfqD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h3sMf6D2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hoxmsqD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h3sMgKD2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h3sMgaD2EeyPFZNw_Xs21g" name="name">
+        <modelElement href="WebScore.uml#_hoxmsaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h3sMgqD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h3sMg6D2EeyPFZNw_Xs21g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h3sMhKD2EeyPFZNw_Xs21g" name="getScoreFind">
+      <modelElement href="WebScore.uml#_hoyNwKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h3sMhaD2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_hoyNwqD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h3sMhqD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h3sMh6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h3sMiKD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hrjN4qD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h3sMiaD2EeyPFZNw_Xs21g" name="Score">
+          <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h3sMiqD2EeyPFZNw_Xs21g" name="name">
+        <modelElement href="WebScore.uml#_hoyNwaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h3sMi6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h3sMjKD2EeyPFZNw_Xs21g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h3sMjaD2EeyPFZNw_Xs21g" name="getScoreInsert">
+      <modelElement href="WebScore.uml#_hrh_wKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h3sMjqD2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_hrim0KD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h3sMj6D2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h3sMkKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h3sMkaD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hrh_wqD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h3sMkqD2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h3sMk6D2EeyPFZNw_Xs21g" name="myScore">
+        <modelElement href="WebScore.uml#_hrh_waD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h3sMlKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h3sMlaD2EeyPFZNw_Xs21g" name="Score">
+          <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h3sMlqD2EeyPFZNw_Xs21g" name="getScoreUpdate">
+      <modelElement href="WebScore.uml#_hrim0aD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h3sMl6D2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_hrjN4aD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h3sMmKD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h3sMmaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h3sMmqD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hrjN4KD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h3sMm6D2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h3sMnKD2EeyPFZNw_Xs21g" name="myScore">
+        <modelElement href="WebScore.uml#_hrim0qD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h3sMnaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h3sMnqD2EeyPFZNw_Xs21g" name="Score">
+          <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h4-l4KD2EeyPFZNw_Xs21g" name="JdbcTemplate">
+    <modelElement href="WebScore.uml#_ho0qAKD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h4-l4aD2EeyPFZNw_Xs21g" position="12.0,273.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h4-l4qD2EeyPFZNw_Xs21g" label="+"/>
+    <operations xmi:id="_h4-l46D2EeyPFZNw_Xs21g" comments="_h48wsKD2EeyPFZNw_Xs21g" targetConnectionVisual="_h48wsaD2EeyPFZNw_Xs21g" name="getConnection" staticOperation="true">
+      <modelElement href="WebScore.uml#_ho1REKD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h4-l5KD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h4-l5aD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h4-l5qD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hsCWEaD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h4-l56D2EeyPFZNw_Xs21g" name="Connection">
+          <modelElement href="WebScore.uml#_hsBvAKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h4-l6KD2EeyPFZNw_Xs21g" comments="_h49XwKD2EeyPFZNw_Xs21g" targetConnectionVisual="_h49XwaD2EeyPFZNw_Xs21g" name="isConnection" staticOperation="true">
+      <modelElement href="WebScore.uml#_hsC9IKD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h4-l6aD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h4-l6qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h4-l66D2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hsC9IqD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h4-l7KD2EeyPFZNw_Xs21g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h4-l7aD2EeyPFZNw_Xs21g" name="conn">
+        <modelElement href="WebScore.uml#_hsC9IaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h4-l7qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h4-l76D2EeyPFZNw_Xs21g" name="Connection">
+          <modelElement href="WebScore.uml#_hsBvAKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h4-l8KD2EeyPFZNw_Xs21g" comments="_h49XwqD2EeyPFZNw_Xs21g" targetConnectionVisual="_h49Xw6D2EeyPFZNw_Xs21g" name="close" staticOperation="true">
+      <modelElement href="WebScore.uml#_hsDkMaD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h4-l8aD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h4-l8qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h4-l86D2EeyPFZNw_Xs21g" name="rs">
+        <modelElement href="WebScore.uml#_hsDkMqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h4-l9KD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h4-l9aD2EeyPFZNw_Xs21g" name="ResultSet">
+          <modelElement href="WebScore.uml#_hsC9I6D2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h4-l9qD2EeyPFZNw_Xs21g" comments="_h49-0KD2EeyPFZNw_Xs21g" targetConnectionVisual="_h49-0aD2EeyPFZNw_Xs21g" name="close" staticOperation="true">
+      <modelElement href="WebScore.uml#_hsEyUKD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h4-l96D2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h4-l-KD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h4-l-aD2EeyPFZNw_Xs21g" name="st">
+        <modelElement href="WebScore.uml#_hsEyUaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h4-l-qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h4-l-6D2EeyPFZNw_Xs21g" name="Statement">
+          <modelElement href="WebScore.uml#_hsELQKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h4-l_KD2EeyPFZNw_Xs21g" comments="_h49-0qD2EeyPFZNw_Xs21g" targetConnectionVisual="_h49-06D2EeyPFZNw_Xs21g" name="close" staticOperation="true">
+      <modelElement href="WebScore.uml#_hsEyUqD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h4-l_aD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h4-l_qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h4-l_6D2EeyPFZNw_Xs21g" name="conn">
+        <modelElement href="WebScore.uml#_hsEyU6D2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h4-mAKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h4-mAaD2EeyPFZNw_Xs21g" name="Connection">
+          <modelElement href="WebScore.uml#_hsBvAKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h4-mAqD2EeyPFZNw_Xs21g" comments="_h49-1KD2EeyPFZNw_Xs21g" targetConnectionVisual="_h49-1aD2EeyPFZNw_Xs21g" name="commit" staticOperation="true">
+      <modelElement href="WebScore.uml#_hsFZYKD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h4-mA6D2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h4-mBKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h4-mBaD2EeyPFZNw_Xs21g" name="conn">
+        <modelElement href="WebScore.uml#_hsFZYaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h4-mBqD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h4-mB6D2EeyPFZNw_Xs21g" name="Connection">
+          <modelElement href="WebScore.uml#_hsBvAKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h4-mCKD2EeyPFZNw_Xs21g" comments="_h49-1qD2EeyPFZNw_Xs21g" targetConnectionVisual="_h49-16D2EeyPFZNw_Xs21g" name="rollback" staticOperation="true">
+      <modelElement href="WebScore.uml#_hsFZYqD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h4-mCaD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h4-mCqD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h4-mC6D2EeyPFZNw_Xs21g" name="conn">
+        <modelElement href="WebScore.uml#_hsFZY6D2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h4-mDKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h4-mDaD2EeyPFZNw_Xs21g" name="Connection">
+          <modelElement href="WebScore.uml#_hsBvAKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h5DeYKD2EeyPFZNw_Xs21g" name="ScoreUpdate">
+    <modelElement href="WebScore.uml#_hpG94KD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h5DeYaD2EeyPFZNw_Xs21g" position="-503.0,23.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h5DeYqD2EeyPFZNw_Xs21g" label="+"/>
+    <attributes xmi:id="_h5DeY6D2EeyPFZNw_Xs21g" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="WebScore.uml#_hsXtQaD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5DeZKD2EeyPFZNw_Xs21g" label="-"/>
+      <cardinality xmi:id="_h5DeZaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5DeZqD2EeyPFZNw_Xs21g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h5DeZ6D2EeyPFZNw_Xs21g" name="doGet">
+      <modelElement href="WebScore.uml#_hsSNsKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5DeaKD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hsS0wKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h5DeaaD2EeyPFZNw_Xs21g" name="Annotations">
+        <modelElement href="WebScore.uml#_hsS0waD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5DeaqD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5Dea6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5DebKD2EeyPFZNw_Xs21g" name="request">
+        <modelElement href="WebScore.uml#_hsSNsaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5DebaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5DebqD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5Deb6D2EeyPFZNw_Xs21g" name="response">
+        <modelElement href="WebScore.uml#_hsSNsqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5DecKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5DecaD2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h5IW4KD2EeyPFZNw_Xs21g" name="ServletException">
+    <modelElement href="WebScore.uml#_hrotcqD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h5IW4aD2EeyPFZNw_Xs21g" position="368.0,41.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_h5IW4qD2EeyPFZNw_Xs21g" name="Reference">
+      <modelElement href="WebScore.uml#_hrpUgKD2EeyPFZNw_Xs21g"/>
+    </stereotypes>
+    <visibility xmi:id="_h5IW46D2EeyPFZNw_Xs21g" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h5JlAKD2EeyPFZNw_Xs21g" name="IOException">
+    <modelElement href="WebScore.uml#_hrm4QKD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h5JlAaD2EeyPFZNw_Xs21g" position="365.0,152.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_h5JlAqD2EeyPFZNw_Xs21g" name="Reference">
+      <modelElement href="WebScore.uml#_hroGYKD2EeyPFZNw_Xs21g"/>
+    </stereotypes>
+    <visibility xmi:id="_h5JlA6D2EeyPFZNw_Xs21g" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h5LaMKD2EeyPFZNw_Xs21g" name="ScoreFind">
+    <modelElement href="WebScore.uml#_hpD6kKD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h5LaMaD2EeyPFZNw_Xs21g" position="-529.0,172.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h5LaMqD2EeyPFZNw_Xs21g" label="+"/>
+    <attributes xmi:id="_h5LaM6D2EeyPFZNw_Xs21g" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="WebScore.uml#_hsXGMaD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5LaNKD2EeyPFZNw_Xs21g" label="-"/>
+      <cardinality xmi:id="_h5LaNaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5LaNqD2EeyPFZNw_Xs21g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h5LaN6D2EeyPFZNw_Xs21g" name="doGet">
+      <modelElement href="WebScore.uml#_hsPxcKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5LaOKD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hsPxc6D2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h5LaOaD2EeyPFZNw_Xs21g" name="Annotations">
+        <modelElement href="WebScore.uml#_hsQYgKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5LaOqD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5LaO6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5LaPKD2EeyPFZNw_Xs21g" name="request">
+        <modelElement href="WebScore.uml#_hsPxcaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5LaPaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5LaPqD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5LaP6D2EeyPFZNw_Xs21g" name="response">
+        <modelElement href="WebScore.uml#_hsPxcqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5LaQKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5LaQaD2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h5N2cKD2EeyPFZNw_Xs21g" name="ScoreInput">
+    <modelElement href="WebScore.uml#_hpFIsKD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h5N2caD2EeyPFZNw_Xs21g" position="387.0,265.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h5N2cqD2EeyPFZNw_Xs21g" label="+"/>
+    <attributes xmi:id="_h5N2c6D2EeyPFZNw_Xs21g" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="WebScore.uml#_hsXGM6D2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5N2dKD2EeyPFZNw_Xs21g" label="-"/>
+      <cardinality xmi:id="_h5N2daD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5N2dqD2EeyPFZNw_Xs21g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h5N2d6D2EeyPFZNw_Xs21g" name="doGet">
+      <modelElement href="WebScore.uml#_hsQ_kKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5N2eKD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hsQ_k6D2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h5N2eaD2EeyPFZNw_Xs21g" name="Annotations">
+        <modelElement href="WebScore.uml#_hsRmoKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5N2eqD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5N2e6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5N2fKD2EeyPFZNw_Xs21g" name="req">
+        <modelElement href="WebScore.uml#_hsQ_kaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5N2faD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5N2fqD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5N2f6D2EeyPFZNw_Xs21g" name="resp">
+        <modelElement href="WebScore.uml#_hsQ_kqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5N2gKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5N2gaD2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h5Q5wKD2EeyPFZNw_Xs21g" name="ScoreDelete">
+    <modelElement href="WebScore.uml#_hpCFYKD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h5Q5waD2EeyPFZNw_Xs21g" position="-87.0,510.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h5Q5wqD2EeyPFZNw_Xs21g" label="+"/>
+    <attributes xmi:id="_h5Q5w6D2EeyPFZNw_Xs21g" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="WebScore.uml#_hsWfIqD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5Q5xKD2EeyPFZNw_Xs21g" label="-"/>
+      <cardinality xmi:id="_h5Q5xaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5Q5xqD2EeyPFZNw_Xs21g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h5Q5x6D2EeyPFZNw_Xs21g" name="doGet">
+      <modelElement href="WebScore.uml#_hsOjUKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5Q5yKD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hsOjU6D2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h5Q5yaD2EeyPFZNw_Xs21g" name="Annotations">
+        <modelElement href="WebScore.uml#_hsPKYKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5Q5yqD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5Q5y6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5Q5zKD2EeyPFZNw_Xs21g" name="request">
+        <modelElement href="WebScore.uml#_hsOjUaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5Q5zaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5Q5zqD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5Q5z6D2EeyPFZNw_Xs21g" name="response">
+        <modelElement href="WebScore.uml#_hsOjUqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5Q50KD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5Q50aD2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h5T9EKD2EeyPFZNw_Xs21g" name="MyController">
+    <modelElement href="WebScore.uml#_ho4UYKD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h5T9EaD2EeyPFZNw_Xs21g" position="570.0,-122.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_h5T9EqD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+      <modelElement href="WebScore.uml#_ho47cKD2EeyPFZNw_Xs21g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_h5T9E6D2EeyPFZNw_Xs21g" name="Annotations">
+      <modelElement href="WebScore.uml#_ho6JkKD2EeyPFZNw_Xs21g"/>
+    </stereotypes>
+    <visibility xmi:id="_h5T9FKD2EeyPFZNw_Xs21g" label="+"/>
+    <attributes xmi:id="_h5T9FaD2EeyPFZNw_Xs21g" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="WebScore.uml#_hsV4EKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5T9FqD2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_hsV4EqD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5T9F6D2EeyPFZNw_Xs21g" label="-"/>
+      <cardinality xmi:id="_h5T9GKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5T9GaD2EeyPFZNw_Xs21g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h5T9GqD2EeyPFZNw_Xs21g" name="doGet">
+      <modelElement href="WebScore.uml#_hsGngKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5T9G6D2EeyPFZNw_Xs21g" name="Annotations">
+        <modelElement href="WebScore.uml#_hsH1oKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5T9HKD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5T9HaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5T9HqD2EeyPFZNw_Xs21g" name="request">
+        <modelElement href="WebScore.uml#_hsGngaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9H6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9IKD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5T9IaD2EeyPFZNw_Xs21g" name="response">
+        <modelElement href="WebScore.uml#_hsGngqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9IqD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9I6D2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h5T9JKD2EeyPFZNw_Xs21g" name="doScoreAll">
+      <modelElement href="WebScore.uml#_hsIcsKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5T9JaD2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_hsIcs6D2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5T9JqD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5T9J6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5T9KKD2EeyPFZNw_Xs21g" name="request">
+        <modelElement href="WebScore.uml#_hsIcsaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9KaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9KqD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5T9K6D2EeyPFZNw_Xs21g" name="response">
+        <modelElement href="WebScore.uml#_hsIcsqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9LKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9LaD2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h5T9LqD2EeyPFZNw_Xs21g" name="doScoreDelete">
+      <modelElement href="WebScore.uml#_hsJDwKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5T9L6D2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_hsJDw6D2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5T9MKD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5T9MaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5T9MqD2EeyPFZNw_Xs21g" name="request">
+        <modelElement href="WebScore.uml#_hsJDwaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9M6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9NKD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5T9NaD2EeyPFZNw_Xs21g" name="response">
+        <modelElement href="WebScore.uml#_hsJDwqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9NqD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9N6D2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h5T9OKD2EeyPFZNw_Xs21g" name="doScoreFind">
+      <modelElement href="WebScore.uml#_hsJq0KD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5T9OaD2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_hsJq06D2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5T9OqD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5T9O6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5T9PKD2EeyPFZNw_Xs21g" name="request">
+        <modelElement href="WebScore.uml#_hsJq0aD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9PaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9PqD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5T9P6D2EeyPFZNw_Xs21g" name="response">
+        <modelElement href="WebScore.uml#_hsJq0qD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9QKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9QaD2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h5T9QqD2EeyPFZNw_Xs21g" name="doScoreInput">
+      <modelElement href="WebScore.uml#_hsKR4KD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5T9Q6D2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_hsKR46D2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5T9RKD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5T9RaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5T9RqD2EeyPFZNw_Xs21g" name="request">
+        <modelElement href="WebScore.uml#_hsKR4aD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9R6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9SKD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5T9SaD2EeyPFZNw_Xs21g" name="response">
+        <modelElement href="WebScore.uml#_hsKR4qD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9SqD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9S6D2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h5T9TKD2EeyPFZNw_Xs21g" name="doScoreUpdate">
+      <modelElement href="WebScore.uml#_hsK48KD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5T9TaD2EeyPFZNw_Xs21g" name="StyledElement">
+        <modelElement href="WebScore.uml#_hsLgAKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5T9TqD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5T9T6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5T9UKD2EeyPFZNw_Xs21g" name="request">
+        <modelElement href="WebScore.uml#_hsK48aD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9UaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9UqD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5T9U6D2EeyPFZNw_Xs21g" name="response">
+        <modelElement href="WebScore.uml#_hsK48qD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5T9VKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5T9VaD2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h5Y1kKD2EeyPFZNw_Xs21g" name="ScoreAll">
+    <modelElement href="WebScore.uml#_hpAQMKD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h5Y1kaD2EeyPFZNw_Xs21g" position="-1049.0,-100.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h5Y1kqD2EeyPFZNw_Xs21g" label="+"/>
+    <attributes xmi:id="_h5Y1k6D2EeyPFZNw_Xs21g" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="WebScore.uml#_hsWfIKD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5Y1lKD2EeyPFZNw_Xs21g" label="-"/>
+      <cardinality xmi:id="_h5Y1laD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5Y1lqD2EeyPFZNw_Xs21g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h5Y1l6D2EeyPFZNw_Xs21g" name="doGet">
+      <modelElement href="WebScore.uml#_hsMHEKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5Y1mKD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hsMuIqD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h5Y1maD2EeyPFZNw_Xs21g" name="Annotations">
+        <modelElement href="WebScore.uml#_hsNVMKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5Y1mqD2EeyPFZNw_Xs21g" label="#"/>
+      <cardinality xmi:id="_h5Y1m6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h5Y1nKD2EeyPFZNw_Xs21g" name="request">
+        <modelElement href="WebScore.uml#_hsMuIKD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5Y1naD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5Y1nqD2EeyPFZNw_Xs21g" name="HttpServletRequest">
+          <modelElement href="WebScore.uml#_hrqioKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h5Y1n6D2EeyPFZNw_Xs21g" name="response">
+        <modelElement href="WebScore.uml#_hsMuIaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5Y1oKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5Y1oaD2EeyPFZNw_Xs21g" name="HttpServletResponse">
+          <modelElement href="WebScore.uml#_hrrJsaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_h5bR0KD2EeyPFZNw_Xs21g" name="ScoreSql" subclassedBy="_h5gKUKD2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_hpLPUKD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h5bR0aD2EeyPFZNw_Xs21g" position="1112.0,-397.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h5bR0qD2EeyPFZNw_Xs21g" label="+"/>
+    <attributes xmi:id="_h5bR06D2EeyPFZNw_Xs21g" defaultValue="&quot;select * from Score&quot;" name="selectAll">
+      <modelElement href="WebScore.uml#_hpLPUaD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5bR1KD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hpL2YaD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5bR1aD2EeyPFZNw_Xs21g" label="~"/>
+      <cardinality xmi:id="_h5bR1qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5bR16D2EeyPFZNw_Xs21g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h5bR2KD2EeyPFZNw_Xs21g" defaultValue="&quot;insert into score values(?,?,?,?,?,?,?)&quot;" name="insertScore">
+      <modelElement href="WebScore.uml#_hpL2YqD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5bR2aD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hpMdcKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5bR2qD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h5bR26D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5bR3KD2EeyPFZNw_Xs21g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h5bR3aD2EeyPFZNw_Xs21g" defaultValue="&quot;select * from score where name = ?&quot;" name="findScore">
+      <modelElement href="WebScore.uml#_hpMdcaD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5bR3qD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hpMdc6D2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5bR36D2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h5bR4KD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5bR4aD2EeyPFZNw_Xs21g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h5bR4qD2EeyPFZNw_Xs21g" defaultValue="&quot;update Score  set  kor=?, eng=?, mat=? where name=?&quot;" name="updateScore">
+      <modelElement href="WebScore.uml#_hpMddKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5bR46D2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hpNEgaD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5bR5KD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h5bR5aD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5bR5qD2EeyPFZNw_Xs21g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h5bR56D2EeyPFZNw_Xs21g" defaultValue="&quot;delete from Score where name = ?&quot;" name="deleteScore">
+      <modelElement href="WebScore.uml#_hpNEgqD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5bR6KD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hpNrkKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5bR6aD2EeyPFZNw_Xs21g" label="~"/>
+      <cardinality xmi:id="_h5bR6qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5bR66D2EeyPFZNw_Xs21g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h5lp4KD2EeyPFZNw_Xs21g" name="ScoreDao" associationsOut="_h5gxYKD2EeyPFZNw_Xs21g" generalizations="_h5gKUKD2EeyPFZNw_Xs21g">
+    <modelElement href="WebScore.uml#_hpIMAKD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h5lp4aD2EeyPFZNw_Xs21g" position="1133.0,-195.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h5lp4qD2EeyPFZNw_Xs21g" label="+"/>
+    <attributes xmi:id="_h5lp46D2EeyPFZNw_Xs21g" name="conn">
+      <modelElement href="WebScore.uml#_hsXtQ6D2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h5lp5KD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hsYUUKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h5lp5aD2EeyPFZNw_Xs21g" label="~"/>
+      <cardinality xmi:id="_h5lp5qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h5lp56D2EeyPFZNw_Xs21g" name="Connection">
+        <modelElement href="WebScore.uml#_hsBvAKD2EeyPFZNw_Xs21g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h5lp6KD2EeyPFZNw_Xs21g" name="getScoreAll">
+      <modelElement href="WebScore.uml#_hpIzEKD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5lp6aD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h5lp6qD2EeyPFZNw_Xs21g" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_h5lp66D2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hpIzEaD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h5lp7KD2EeyPFZNw_Xs21g" name="Score">
+          <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h5lp7aD2EeyPFZNw_Xs21g" name="getScoreFind">
+      <modelElement href="WebScore.uml#_hpJaIKD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5lp7qD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h5lp76D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h5lp8KD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hr82gKD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h5lp8aD2EeyPFZNw_Xs21g" name="Score">
+          <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h5lp8qD2EeyPFZNw_Xs21g" name="name">
+        <modelElement href="WebScore.uml#_hpJaIaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5lp86D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5lp9KD2EeyPFZNw_Xs21g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h5lp9aD2EeyPFZNw_Xs21g" name="getScoreDelete">
+      <modelElement href="WebScore.uml#_hpKBMKD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5lp9qD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h5lp96D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h5lp-KD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hpKBMqD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h5lp-aD2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h5lp-qD2EeyPFZNw_Xs21g" name="name">
+        <modelElement href="WebScore.uml#_hpKBMaD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5lp-6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5lp_KD2EeyPFZNw_Xs21g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h5lp_aD2EeyPFZNw_Xs21g" name="getScoreInsert">
+      <modelElement href="WebScore.uml#_hr82gaD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5lp_qD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h5lp_6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h5lqAKD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hr82g6D2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h5lqAaD2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h5lqAqD2EeyPFZNw_Xs21g" name="myScore">
+        <modelElement href="WebScore.uml#_hr82gqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5lqA6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5lqBKD2EeyPFZNw_Xs21g" name="Score">
+          <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h5lqBaD2EeyPFZNw_Xs21g" name="getScoreUpdate">
+      <modelElement href="WebScore.uml#_hr82hKD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h5lqBqD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h5lqB6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h5lqCKD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hr9dkaD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h5lqCaD2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h5lqCqD2EeyPFZNw_Xs21g" name="myScore">
+        <modelElement href="WebScore.uml#_hr9dkKD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5lqC6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5lqDKD2EeyPFZNw_Xs21g" name="Score">
+          <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h5lqDaD2EeyPFZNw_Xs21g" name="ScoreDao">
+      <modelElement href="WebScore.uml#_hsTb0KD2EeyPFZNw_Xs21g"/>
+      <keywords xmi:id="_h5lqDqD2EeyPFZNw_Xs21g" keyword="create"/>
+      <visibility xmi:id="_h5lqD6D2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h5lqEKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h5lqEaD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hsTb1KD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h5lqEqD2EeyPFZNw_Xs21g" name="ScoreDao">
+          <modelElement href="WebScore.uml#_hpIMAKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h5lqE6D2EeyPFZNw_Xs21g" name="con">
+        <modelElement href="WebScore.uml#_hsTb0aD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h5lqFKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h5lqFaD2EeyPFZNw_Xs21g" name="Connection">
+          <modelElement href="WebScore.uml#_hsBvAKD2EeyPFZNw_Xs21g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h6BuwKD2EeyPFZNw_Xs21g" name="Score">
+    <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+    <visualProperties xmi:id="_h6BuwaD2EeyPFZNw_Xs21g" position="1518.0,-309.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h6BuwqD2EeyPFZNw_Xs21g" label="+"/>
+    <attributes xmi:id="_h6Buw6D2EeyPFZNw_Xs21g" name="name">
+      <modelElement href="WebScore.uml#_hsYUUaD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h6BuxKD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6BuxaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h6BuxqD2EeyPFZNw_Xs21g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h6Bux6D2EeyPFZNw_Xs21g" name="kor">
+      <modelElement href="WebScore.uml#_hsY7YKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h6BuyKD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hsY7YaD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h6BuyaD2EeyPFZNw_Xs21g" name="MultiDeclaration">
+        <modelElement href="WebScore.uml#_hsY7YqD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h6BuyqD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6Buy6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h6BuzKD2EeyPFZNw_Xs21g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h6BuzaD2EeyPFZNw_Xs21g" name="tot">
+      <modelElement href="WebScore.uml#_hsbXoKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h6BuzqD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hsbXoaD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h6Buz6D2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6Bu0KD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h6Bu0aD2EeyPFZNw_Xs21g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h6Bu0qD2EeyPFZNw_Xs21g" name="avg">
+      <modelElement href="WebScore.uml#_hsb-saD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h6Bu06D2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hsb-sqD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h6Bu1KD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6Bu1aD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h6Bu1qD2EeyPFZNw_Xs21g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h6Bu16D2EeyPFZNw_Xs21g" name="grade">
+      <modelElement href="WebScore.uml#_hsclwaD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h6Bu2KD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_hsclwqD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h6Bu2aD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6Bu2qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h6Bu26D2EeyPFZNw_Xs21g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h6Bu3KD2EeyPFZNw_Xs21g" name="eng">
+      <modelElement href="WebScore.uml#_htRFIKD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h6Bu3aD2EeyPFZNw_Xs21g" name="MultiDeclaration">
+        <modelElement href="WebScore.uml#_htRFIaD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h6Bu3qD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_htRsMKD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h6Bu36D2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6Bu4KD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h6Bu4aD2EeyPFZNw_Xs21g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h6Bu4qD2EeyPFZNw_Xs21g" name="mat">
+      <modelElement href="WebScore.uml#_htRsMaD2EeyPFZNw_Xs21g"/>
+      <stereotypes xmi:id="_h6Bu46D2EeyPFZNw_Xs21g" name="MultiDeclaration">
+        <modelElement href="WebScore.uml#_htRsMqD2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h6Bu5KD2EeyPFZNw_Xs21g" name="LegacyStyledElement">
+        <modelElement href="WebScore.uml#_htRsM6D2EeyPFZNw_Xs21g"/>
+      </stereotypes>
+      <visibility xmi:id="_h6Bu5aD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6Bu5qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <type xmi:id="_h6Bu56D2EeyPFZNw_Xs21g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h6Bu6KD2EeyPFZNw_Xs21g" name="Score">
+      <modelElement href="WebScore.uml#_hpOSoKD2EeyPFZNw_Xs21g"/>
+      <keywords xmi:id="_h6Bu6aD2EeyPFZNw_Xs21g" keyword="create"/>
+      <visibility xmi:id="_h6Bu6qD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6Bu66D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h6Bu7KD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hpO5sqD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h6Bu7aD2EeyPFZNw_Xs21g" name="Score">
+          <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h6Bu7qD2EeyPFZNw_Xs21g" name="Score">
+      <modelElement href="WebScore.uml#_hpO5s6D2EeyPFZNw_Xs21g"/>
+      <keywords xmi:id="_h6Bu76D2EeyPFZNw_Xs21g" keyword="create"/>
+      <visibility xmi:id="_h6Bu8KD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6Bu8aD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h6Bu8qD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hpPgwqD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h6Bu86D2EeyPFZNw_Xs21g" name="Score">
+          <modelElement href="WebScore.uml#_hpNrkaD2EeyPFZNw_Xs21g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h6Bu9KD2EeyPFZNw_Xs21g" name="name">
+        <modelElement href="WebScore.uml#_hpO5tKD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h6Bu9aD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h6Bu9qD2EeyPFZNw_Xs21g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h6Bu96D2EeyPFZNw_Xs21g" name="kor">
+        <modelElement href="WebScore.uml#_hpO5taD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h6Bu-KD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h6Bu-aD2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h6Bu-qD2EeyPFZNw_Xs21g" name="eng">
+        <modelElement href="WebScore.uml#_hpO5tqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h6Bu-6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h6Bu_KD2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h6Bu_aD2EeyPFZNw_Xs21g" name="mat">
+        <modelElement href="WebScore.uml#_hpO5t6D2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h6Bu_qD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h6Bu_6D2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h6BvAKD2EeyPFZNw_Xs21g" name="getEng">
+      <modelElement href="WebScore.uml#_hpPgw6D2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h6BvAaD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6BvAqD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h6BvA6D2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hpPgxKD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h6BvBKD2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h6BvBaD2EeyPFZNw_Xs21g" name="setEng">
+      <modelElement href="WebScore.uml#_hpPgxaD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h6BvBqD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6BvB6D2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h6BvCKD2EeyPFZNw_Xs21g" name="eng">
+        <modelElement href="WebScore.uml#_hpPgxqD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h6BvCaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h6BvCqD2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h6BvC6D2EeyPFZNw_Xs21g" name="getMat">
+      <modelElement href="WebScore.uml#_hpPgx6D2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h6BvDKD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6BvDaD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h6BvDqD2EeyPFZNw_Xs21g">
+        <modelElement href="WebScore.uml#_hpQH0KD2EeyPFZNw_Xs21g"/>
+        <type xmi:id="_h6BvD6D2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h6BvEKD2EeyPFZNw_Xs21g" name="setMat">
+      <modelElement href="WebScore.uml#_hpQH0aD2EeyPFZNw_Xs21g"/>
+      <visibility xmi:id="_h6BvEaD2EeyPFZNw_Xs21g" label="+"/>
+      <cardinality xmi:id="_h6BvEqD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_h6BvE6D2EeyPFZNw_Xs21g" name="mat">
+        <modelElement href="WebScore.uml#_hpQH0qD2EeyPFZNw_Xs21g"/>
+        <cardinality xmi:id="_h6BvFKD2EeyPFZNw_Xs21g" label="1" max="1" min="1"/>
+        <type xmi:id="_h6BvFaD2EeyPFZNw_Xs21g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
