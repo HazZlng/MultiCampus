@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://mybatis.org/schema/mybatis-spring
+                           http://mybatis.org/schema/mybatis-spring.xsd
+    ">
+
+    <bean id="mysqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="mysqlDataSource" />
+	    <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <property name="mapperLocations">
+            <array>
+                <value>/WEB-INF/classes/com/**/*SQL.xml</value>
+                <value>/WEB-INF/classes/com/**/*Mapper.xml</value>
+                <!--value>classpath:com/**/*SQL.xml</value-->
+                <!--value>classpath:com/**/*Mapper.xml</value-->
+            </array>
+        </property>
+    </bean>
+
+    <bean id="mysqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg index="0" ref="mysqlSessionFactory"/>
+    </bean>
+
+<!--
+    <bean id="sqlSessionFactory" class="devonframe.dataaccess.mybatis.factory.CommonDaoSqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="configLocation" value="classpath:/sql/configuration.xml"/>
+        <property name="mapperLocations" value= "classpath:/sql/hsql/**/sql-*.xml"/>
+    </bean>
+-->
+<!--
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg ref="sqlSessionFactory" />
+    </bean>
+-->
+<!--
+    <bean id="commonDAO" class="devonframe.dataaccess.mybatis.MyBatisCommonDao">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+    </bean>
+-->
+</beans>

@@ -1,0 +1,9 @@
+
+  project  _  WebScore
+           com.biz  - ScoreBIZ  
+           com.dao -ScoreDAO  (db - CRUD)
+           com.vo   -ScoreVO    
+                  
+           com.entity-ScoreEntity (db table)   
+           com.controller - ScoreController
+         

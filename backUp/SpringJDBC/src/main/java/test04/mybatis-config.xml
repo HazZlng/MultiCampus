@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<properties resource="test04/jdbc.properties"/>
+		
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"/>				<!-- 커밋 및 롤백  (수동 : JDBC)(자동 : MANAGED)-->
+      <dataSource type="POOLED">					<!-- 한번만 열고 닫는다. -->
+        <property name="driver" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.userName}"/>
+        <property name="password" value="${jdbc.password}"/>
+      </dataSource>
+    </environment>
+  </environments>
+  
+  <!-- 쿼리문 -->
+  <mappers>
+  	<!-- SQL 문장이 기술된 Mapper 파일들 -->
+    <mapper resource="test04/goodsMapper.xml"/>
+  </mappers>
+</configuration>

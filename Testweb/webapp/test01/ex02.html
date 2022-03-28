@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Insert title here</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#submitButton").click(function() {
+				var sendData = "username="+ $(".user").val();
+				
+				$.ajax({
+					type: "POST",
+					url : "ex02.jsp",						// 1. 값을 요청
+					data : sendData,						
+					dataType: "html",
+					error: function() {
+						alert("FAILED");
+					},
+					success: function(data) {				// 2. 값을 리턴받음. data = ex01.jsp
+						//alert("SUCCESSED :: " + data)
+						$("#result").html(data)
+					}
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+	<form>
+		<label> input name </label>
+		<input type = "text" name = "username" class = "user">
+		<input type = "button" id = "submitButton" value = "입력">
+	</form>
+	
+	
+	<H1> EX01.HTML</H1>
+	<div id = "result" style="font-size : 1.5em">
+		
+	</div>
+</body>
+</html>

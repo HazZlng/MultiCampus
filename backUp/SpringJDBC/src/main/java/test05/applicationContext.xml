@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<context:component-scan base-package = "test05"/>
+	
+	<bean id="vo01" class="test05.GoodsVO" p:code="p007"
+		p:maker = "SDS" p:price = "19999" p:name = "node.js"></bean>
+		
+	<bean id="vo02" class="test05.GoodsVO" p:code="p008"
+		p:maker = "CNS" p:price = "12222" p:name = "MyBatis"></bean>
+</beans>      

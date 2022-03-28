@@ -1,0 +1,88 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.mybatis.mybatis
+Bnd-LastModified: 1602016878508
+Specification-Title: mybatis
+Bundle-DocURL: http://www.mybatis.org/mybatis-3
+Include-Resource: META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE,org/
+ apache/ibatis/builder/xml/mybatis-mapper.xsd=src/main/java/org/apache
+ /ibatis/builder/xml/mybatis-mapper.xsd,org/apache/ibatis/builder/xml/
+ mybatis-3-config.dtd=src/main/java/org/apache/ibatis/builder/xml/myba
+ tis-3-config.dtd,org/apache/ibatis/builder/xml/mybatis-config.xsd=src
+ /main/java/org/apache/ibatis/builder/xml/mybatis-config.xsd,org/apach
+ e/ibatis/builder/xml/mybatis-3-mapper.dtd=src/main/java/org/apache/ib
+ atis/builder/xml/mybatis-3-mapper.dtd
+Import-Package: javassist.util.proxy;resolution:=optional,javax.naming
+ ;resolution:=optional,javax.sql;resolution:=optional,javax.xml.namesp
+ ace;resolution:=optional,javax.xml.parsers;resolution:=optional,javax
+ .xml.xpath;resolution:=optional,net.sf.cglib.proxy;resolution:=option
+ al,ognl;resolution:=optional,org.apache.commons.logging;resolution:=o
+ ptional,org.apache.log4j;resolution:=optional,org.apache.logging.log4
+ j;resolution:=optional,org.apache.logging.log4j.message;resolution:=o
+ ptional,org.apache.logging.log4j.spi;resolution:=optional,org.slf4j;r
+ esolution:=optional,org.slf4j.spi;resolution:=optional,org.w3c.dom;re
+ solution:=optional,org.xml.sax;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+DynamicImport-Package: *
+Implementation-Build-Date: 2020-10-06 20:40:21+0000
+Export-Package: org.apache.ibatis.annotations;version="3.5.6",org.apac
+ he.ibatis.binding;version="3.5.6",org.apache.ibatis.builder;version="
+ 3.5.6",org.apache.ibatis.builder.annotation;version="3.5.6",org.apach
+ e.ibatis.builder.xml;version="3.5.6",org.apache.ibatis.cache;version=
+ "3.5.6",org.apache.ibatis.cache.decorators;version="3.5.6",org.apache
+ .ibatis.cache.impl;version="3.5.6",org.apache.ibatis.cursor;version="
+ 3.5.6",org.apache.ibatis.cursor.defaults;version="3.5.6",org.apache.i
+ batis.datasource;version="3.5.6",org.apache.ibatis.datasource.jndi;ve
+ rsion="3.5.6",org.apache.ibatis.datasource.pooled;version="3.5.6",org
+ .apache.ibatis.datasource.unpooled;version="3.5.6",org.apache.ibatis.
+ exceptions;version="3.5.6",org.apache.ibatis.executor;version="3.5.6"
+ ,org.apache.ibatis.executor.keygen;version="3.5.6",org.apache.ibatis.
+ executor.loader;version="3.5.6",org.apache.ibatis.executor.loader.cgl
+ ib;version="3.5.6",org.apache.ibatis.executor.loader.javassist;versio
+ n="3.5.6",org.apache.ibatis.executor.parameter;version="3.5.6",org.ap
+ ache.ibatis.executor.result;version="3.5.6",org.apache.ibatis.executo
+ r.resultset;version="3.5.6",org.apache.ibatis.executor.statement;vers
+ ion="3.5.6",org.apache.ibatis.io;version="3.5.6",org.apache.ibatis.jd
+ bc;version="3.5.6",org.apache.ibatis.lang;version="3.5.6",org.apache.
+ ibatis.logging;version="3.5.6",org.apache.ibatis.logging.commons;vers
+ ion="3.5.6",org.apache.ibatis.logging.jdbc;version="3.5.6",org.apache
+ .ibatis.logging.jdk14;version="3.5.6",org.apache.ibatis.logging.log4j
+ ;version="3.5.6",org.apache.ibatis.logging.log4j2;version="3.5.6",org
+ .apache.ibatis.logging.nologging;version="3.5.6",org.apache.ibatis.lo
+ gging.slf4j;version="3.5.6",org.apache.ibatis.logging.stdout;version=
+ "3.5.6",org.apache.ibatis.mapping;version="3.5.6",org.apache.ibatis.p
+ arsing;version="3.5.6",org.apache.ibatis.plugin;version="3.5.6",org.a
+ pache.ibatis.reflection;version="3.5.6",org.apache.ibatis.reflection.
+ factory;version="3.5.6",org.apache.ibatis.reflection.invoker;version=
+ "3.5.6",org.apache.ibatis.reflection.property;version="3.5.6",org.apa
+ che.ibatis.reflection.wrapper;version="3.5.6",org.apache.ibatis.scrip
+ ting;version="3.5.6",org.apache.ibatis.scripting.defaults;version="3.
+ 5.6",org.apache.ibatis.scripting.xmltags;version="3.5.6",org.apache.i
+ batis.session;version="3.5.6",org.apache.ibatis.session.defaults;vers
+ ion="3.5.6",org.apache.ibatis.transaction;version="3.5.6",org.apache.
+ ibatis.transaction.jdbc;version="3.5.6",org.apache.ibatis.transaction
+ .managed;version="3.5.6",org.apache.ibatis.type;version="3.5.6"
+Bundle-Name: mybatis
+Build-Os: Mac OS X (10.15.6; x86_64)
+Build-Jdk-Spec: 1.8
+Implementation-Title: mybatis
+Bundle-Description: The MyBatis SQL mapper framework makes it easier t
+ o use a relational database with object-oriented    applications. MyB
+ atis couples objects with stored procedures or SQL statements using a
+  XML descriptor or    annotations. Simplicity is the biggest advantag
+ e of the MyBatis data mapper over object relational mapping    tools.
+Build-Tool: Apache Maven
+Automatic-Module-Name: org.mybatis
+Implementation-Version: 3.5.6
+Specification-Vendor: MyBatis.org
+Bundle-ManifestVersion: 2
+Bundle-Vendor: MyBatis.org
+Tool: Bnd-5.1.2.202007211702
+Implementation-Vendor: MyBatis.org
+Bundle-Version: 3.5.6
+X-Compile-Target-JDK: 1.8
+X-Compile-Source-JDK: 1.8
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_251 (Oracle Corporation)
+Specification-Version: 3.5
+

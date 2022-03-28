@@ -1,0 +1,21 @@
+http://jquery.com/
+
+html5 = css + js + html
+
+ajax = js + 비동기 통신 - 페이지의 이동없이
+	현재 페이지 내에서 새로운 데이터를 업데이트 하는 것
+	
+jquery = ajax + 코드 단순화 + 소켓통신
+
+jquery + template + object + web&app = react
+
+==========================================================
+-test
+	type		: http의 메소드 GET/POST
+	dataType	: AJAX를 통해서 호출한 페이지의 리턴형식
+					=>xml, json, html, text
+	error		: 에러처리
+	success		: 성공시 데이터 핸들링
+	
+-test01
+	ex02.html에서 이름을 입력해서 data라는 변수로 jsp파일을 리턴받는다.

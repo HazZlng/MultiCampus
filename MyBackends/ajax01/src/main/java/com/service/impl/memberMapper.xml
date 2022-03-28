@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="memberMapper">
+
+	
+	<select id="loginCheck" resultType="int">
+		<![CDATA[
+			SELECT count(*) FROM member
+			WHERE user_id = #{userId} AND passwd = #{passwd}
+		]]>
+	</select>
+	
+	<select id="idCheck" resultType="int">
+		<![CDATA[
+			SELECT count(*) FROM member
+			WHERE user_id = #{userId}
+		]]>
+	</select>
+	
+	<select id="signUp">
+		<![CDATA[
+			insert into member(user_id,passwd)
+			values (#{userId},#{passwd})
+		]]>
+	</select>
+
+</mapper>

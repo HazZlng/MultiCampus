@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MyCustomer">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="spring-web-5.3.14.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-web-5.3.14/spring-web-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="protobuf-java-3.6.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/protobuf-java-3.6.1/protobuf-java-3.6.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-5.3.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-beans-5.3.14/spring-beans-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsp-api-2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsp-api-2.1/jsp-api-2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="logkit-1.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/logkit-1.0.1/logkit-1.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="junit-3.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/junit-3.8.1/junit-3.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api-2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/servlet-api-2.5/servlet-api-2.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4jdbc-log4j2-jdbc4.1-1.16.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4jdbc-log4j2-jdbc4.1-1.16/log4jdbc-log4j2-jdbc4.1-1.16">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-5.3.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-webmvc-5.3.14/spring-webmvc-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-mock-2.0.8.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-mock-2.0.8/spring-mock-2.0.8">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-5.3.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-expression-5.3.14/spring-expression-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mybatis-3.5.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mybatis-3.5.6/mybatis-3.5.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-5.3.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-aop-5.3.14/spring-aop-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jcl-5.3.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jcl-5.3.14/spring-jcl-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-api-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-api-1.2/jstl-api-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="avalon-framework-4.1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/avalon-framework-4.1.3/avalon-framework-4.1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-8.0.16.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-8.0.16/mysql-connector-java-8.0.16">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-5.3.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-context-5.3.14/spring-context-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-5.3.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-core-5.3.14/spring-core-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mybatis-spring-1.3.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mybatis-spring-1.3.2/mybatis-spring-1.3.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1/commons-logging-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-5.3.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jdbc-5.3.14/spring-jdbc-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.12.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-1.2.12/log4j-1.2.12">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-5.3.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-tx-5.3.14/spring-tx-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-5.3.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-test-5.3.14/spring-test-5.3.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="MyCustomer"/>
+        <property name="java-output-path" value="/MyCustomer/build/classes"/>
+    </wb-module>
+</project-modules>

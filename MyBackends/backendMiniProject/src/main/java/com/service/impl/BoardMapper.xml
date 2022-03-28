@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="BoardMapper">
+	
+	<select id="getBoardList" resultType="com.domain.BoardVO">
+		SELECT idx,title,writer,reg_date,cnt
+		FROM boardtest
+		ORDER BY idx DESC
+	</select>
+	
+	<select id="getContent" resultType="com.domain.BoardVO">
+		SELECT *
+		FROM boardtest
+		WHERE idx = #{idx}
+	</select>
+	
+	<select id="insertBoard">
+		INSERT INTO boardtest(title,writer,content,reg_date)
+		VALUES(#{title}, #{writer}, #{content}, now())
+	</select>
+	
+	<update id="updateBoard">
+		UPDATE boardtest SET
+		title = #{title},
+		content = #{content}
+		WHERE idx = #{idx}
+	</update>
+
+	<delete id="deleteBoard">
+		DELETE FROM boardtest
+		WHERE idx = #{idx}
+	</delete>
+</mapper>

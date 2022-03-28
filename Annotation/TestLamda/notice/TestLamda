@@ -1,0 +1,101 @@
+@Documented					// @적용위치
+@Retention(valeu=RUNTIME)	// @실행시점
+@Target(value=TYPE)			// @실행대상
+
+public @interface FunctionalInterface
+
+1. Lambda는 SE 8	부터 도입된 표기법	-> 코드 간결화 (중보코드를 단일코드)
+	Thread.run(){} // 재정의
+	
+2. 익명함수를 사용하는 형식
+	ex) 익명클래스
+		Button bt = new Button();
+		bt.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActioniEvent E){
+				. . . 
+			}
+		} );
+		
+	[익명클래스 1.8 이후]
+		Button bt = new Button();
+		bt.addActionListener(E -> 실행할 코드....);
+		
+3. 클로저 (Closure)라고도 한다
+
+4. @FunctionalInterface를 사용한 함수형 인터페이스, 람다 표현식,
+	메소드 참조, 생성자 참조, 클래스 멤버와 로컬변수 사용, 표준 API
+	함수 인터페이스 이다.
+	
+5. 람다식 함수형 인터페이스 
+    
+@FunctionalInterface  ---------  어노테이션 선언 
+private interface  인터페이스명 {
+	public  void[자료형]   함수명 (매개인수,,,);
+}
+
+  람다 식 함수 형 인터페이스는 lambda 표현식을  사용한다.
+( 구현하는 메서드의 인수 ) -> { 처리 } 형식을 취하며 기본 문법에 따라 처리 구현을 
+  간결하게 기술 할 수 있으며 복수라도 인수 없이 처리 가능하다.
+   
+lambda 표현식은 Method와 유사하나 다음의 4가지가 다르다.  
+
+5-1.lambda 표현식은 익명으로 처리되어 이름이 없다.
+5-2.lambda 표현식은 compiler가 context에 맞는 타입을 유추하기 때문에 return type이 없다. 
+5-3.lambda 표현식은 compiler가 context에서 유추되어   throws clause가 없다. )
+5-4.lambda 표현식은 람다 표현식은 Generic이 될 수 없어  type 파라미터를 선언할 수 없다.
+	
+6. 람다 표현식 ( 구현하는 메서드의 인수 ) -> {처리}
+	간단한 예문.
+	6-1) 매개인자로 su를 받아서 출력하는 구문
+		(int su) -> {System.out.println(su);}
+		
+	6-2) 자료형 생략
+		(su) -> {System.out.println(su);}
+		
+	6-3) 매개인자가 하나일 경우 (), {} 생략이 가능하다.
+		su -> System.out.println(su);
+		
+	6-4) 매개인자가 없는 경우 ()만 사용할 수 있다.
+		() -> {System.out.println(100);}
+		
+	6-5) 매개인자 2개 이상이면 자료형 생략하여 실행한다.	
+		(a, b) -> { return a+b;}
+		
+	6-6) 매개인자 2개 이상이면 {}, return 생략하여 실행한다.	
+		(a, b) -> a+b
+		
+7. 표준 API함수 인터페이스 : java.util.function, 43개가 존재함.
+	43개의 인터페이스 : 매개인수와 반환결과의 패턴이 크게 4종류(Function,
+						Predicate, Consumer, Supplier)를
+	 					기본으로 상속구조와 파생클래스로 구성된다.
+	
+4개의 인터페이스는 각각 주요 추상메소드를 가지고 있다.
+
+ << Function 메소드 >>
+8. java.util.function
+	8-1) Function<T,R>		: 인수를 T로 받고 R로 리턴하는 함수를 선언 
+								R apply(T t)
+	8-2) BiFunction<T,U,R>	: 인수를 T, U로 받고 R로 리턴하는 함수를 선언
+								R apply(T t, U u)
+								
+							
+9. java.util.Predicate
+	9-1) Predicate<T>				: 인수 T를 받아 결과를 true/false로 리턴
+										boolean test(T t) 
+	
+	9-2) default BiPredicate<T,U>	: 인수 T, U를 받아 결과를 true/false로 리턴
+										boolean test(T t, U u)
+10. java.util.Consumer
+
+11. java.util.Supplier
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#submitButton").click(function() {				
+				var strinfo = "";
+				$.getJSON("my.txt", function(data){
+						$.each(data, function(key, value){		// k : index / v : object
+							$.each(value, function(k, v){		// k : name, addr
+								strinfo += k + ", " + v + "\n";
+							});
+						});
+						alert(strinfo);
+						$("#result").html(strinfo)
+					});
+				});
+			});
+	</script>
+</head>
+<body>
+	<form>
+		<label> input name </label>
+		<input type = "button" id = "submitButton" value = "입력">
+	</form>
+	
+	<H1> EX01.HTML</H1>
+	<div id = "result" style="font-size : 1.5em">
+		
+	</div>
+</body>
+</html>
